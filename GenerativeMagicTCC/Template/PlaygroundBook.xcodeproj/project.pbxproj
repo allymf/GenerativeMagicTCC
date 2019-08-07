@@ -12,6 +12,18 @@
 		3F0993F922FA4FA800B1F99A /* ImgFilterShowcase.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0993F522FA4FA800B1F99A /* ImgFilterShowcase.png */; };
 		3F0993FA22FA4FA800B1F99A /* Cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0993F622FA4FA800B1F99A /* Cover.png */; };
 		3F0993FC22FA569C00B1F99A /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0993FB22FA569C00B1F99A /* IntroViewController.swift */; };
+		3F09940A22FA5EFF00B1F99A /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940822FA5CC400B1F99A /* CanvasViewController.swift */; };
+		3F09940B22FA5FB800B1F99A /* CanvasSKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940422FA5CC400B1F99A /* CanvasSKScene.swift */; };
+		3F09940C22FA5FE400B1F99A /* UIColor+InitFromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0993FE22FA5CC400B1F99A /* UIColor+InitFromHex.swift */; };
+		3F09940D22FA5FF600B1F99A /* CanvasSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940022FA5CC400B1F99A /* CanvasSettings.swift */; };
+		3F09940E22FA5FFA00B1F99A /* CanvasDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940622FA5CC400B1F99A /* CanvasDelegate.swift */; };
+		3F09940F22FA5FFC00B1F99A /* DrawMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0993FF22FA5CC400B1F99A /* DrawMode.swift */; };
+		3F09941022FA5FFE00B1F99A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940722FA5CC400B1F99A /* Font.swift */; };
+		3F09941122FA600000B1F99A /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940222FA5CC400B1F99A /* Pixel.swift */; };
+		3F09941222FA600400B1F99A /* PresentationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940122FA5CC400B1F99A /* PresentationDataSource.swift */; };
+		3F09941322FA601800B1F99A /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940522FA5CC400B1F99A /* PresentationViewController.swift */; };
+		3F09941422FA601A00B1F99A /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940322FA5CC400B1F99A /* ShapeType.swift */; };
+		3F09941522FA602A00B1F99A /* UIImage+ScaleToSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940922FA5CC400B1F99A /* UIImage+ScaleToSize.swift */; };
 		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
 		5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */; };
@@ -154,25 +166,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F0993FD22FA5C3F00B1F99A /* Canvas */ = {
-			isa = PBXGroup;
-			children = (
-				3F09940622FA5CC400B1F99A /* CanvasDelegate.swift */,
-				3F09940022FA5CC400B1F99A /* CanvasSettings.swift */,
-				3F09940422FA5CC400B1F99A /* CanvasSKScene.swift */,
-				3F09940822FA5CC400B1F99A /* CanvasViewController.swift */,
-				3F0993FF22FA5CC400B1F99A /* DrawMode.swift */,
-				3F09940722FA5CC400B1F99A /* Font.swift */,
-				3F09940222FA5CC400B1F99A /* Pixel.swift */,
-				3F09940122FA5CC400B1F99A /* PresentationDataSource.swift */,
-				3F09940522FA5CC400B1F99A /* PresentationViewController.swift */,
-				3F09940322FA5CC400B1F99A /* ShapeType.swift */,
-				3F0993FE22FA5CC400B1F99A /* UIColor+InitFromHex.swift */,
-				3F09940922FA5CC400B1F99A /* UIImage+ScaleToSize.swift */,
-			);
-			path = Canvas;
-			sourceTree = "<group>";
-		};
 		5E086DA4204F706E004D8D25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,8 +288,19 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3F0993FD22FA5C3F00B1F99A /* Canvas */,
+				3F09940322FA5CC400B1F99A /* ShapeType.swift */,
+				3F09940922FA5CC400B1F99A /* UIImage+ScaleToSize.swift */,
+				3F09940522FA5CC400B1F99A /* PresentationViewController.swift */,
 				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
+				3F09940122FA5CC400B1F99A /* PresentationDataSource.swift */,
+				3F09940222FA5CC400B1F99A /* Pixel.swift */,
+				3F09940722FA5CC400B1F99A /* Font.swift */,
+				3F0993FF22FA5CC400B1F99A /* DrawMode.swift */,
+				3F09940622FA5CC400B1F99A /* CanvasDelegate.swift */,
+				3F09940822FA5CC400B1F99A /* CanvasViewController.swift */,
+				3F09940422FA5CC400B1F99A /* CanvasSKScene.swift */,
+				3F09940022FA5CC400B1F99A /* CanvasSettings.swift */,
+				3F0993FE22FA5CC400B1F99A /* UIColor+InitFromHex.swift */,
 				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
 				3F0993FB22FA569C00B1F99A /* IntroViewController.swift */,
 			);
@@ -468,8 +472,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F09940B22FA5FB800B1F99A /* CanvasSKScene.swift in Sources */,
+				3F09940A22FA5EFF00B1F99A /* CanvasViewController.swift in Sources */,
+				3F09941022FA5FFE00B1F99A /* Font.swift in Sources */,
 				3F0993FC22FA569C00B1F99A /* IntroViewController.swift in Sources */,
+				3F09940D22FA5FF600B1F99A /* CanvasSettings.swift in Sources */,
+				3F09941422FA601A00B1F99A /* ShapeType.swift in Sources */,
+				3F09941522FA602A00B1F99A /* UIImage+ScaleToSize.swift in Sources */,
+				3F09941122FA600000B1F99A /* Pixel.swift in Sources */,
+				3F09941322FA601800B1F99A /* PresentationViewController.swift in Sources */,
+				3F09941222FA600400B1F99A /* PresentationDataSource.swift in Sources */,
+				3F09940C22FA5FE400B1F99A /* UIColor+InitFromHex.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
+				3F09940F22FA5FFC00B1F99A /* DrawMode.swift in Sources */,
+				3F09940E22FA5FFA00B1F99A /* CanvasDelegate.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
