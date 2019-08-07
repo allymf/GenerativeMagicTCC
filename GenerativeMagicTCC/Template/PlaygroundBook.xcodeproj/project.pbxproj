@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0993F722FA4FA800B1F99A /* wwdc19.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0993F322FA4FA700B1F99A /* wwdc19.png */; };
+		3F0993F822FA4FA800B1F99A /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0993F422FA4FA700B1F99A /* me.png */; };
+		3F0993F922FA4FA800B1F99A /* ImgFilterShowcase.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0993F522FA4FA800B1F99A /* ImgFilterShowcase.png */; };
+		3F0993FA22FA4FA800B1F99A /* Cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0993F622FA4FA800B1F99A /* Cover.png */; };
 		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
 		5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */; };
@@ -90,6 +94,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F0993F322FA4FA700B1F99A /* wwdc19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wwdc19.png; sourceTree = "<group>"; };
+		3F0993F422FA4FA700B1F99A /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		3F0993F522FA4FA800B1F99A /* ImgFilterShowcase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImgFilterShowcase.png; sourceTree = "<group>"; };
+		3F0993F622FA4FA800B1F99A /* Cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cover.png; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundBook.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
@@ -241,6 +249,10 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				3F0993F622FA4FA800B1F99A /* Cover.png */,
+				3F0993F522FA4FA800B1F99A /* ImgFilterShowcase.png */,
+				3F0993F422FA4FA700B1F99A /* me.png */,
+				3F0993F322FA4FA700B1F99A /* wwdc19.png */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
 			);
@@ -369,8 +381,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0993F722FA4FA800B1F99A /* wwdc19.png in Resources */,
+				3F0993FA22FA4FA800B1F99A /* Cover.png in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
+				3F0993F822FA4FA800B1F99A /* me.png in Resources */,
+				3F0993F922FA4FA800B1F99A /* ImgFilterShowcase.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
