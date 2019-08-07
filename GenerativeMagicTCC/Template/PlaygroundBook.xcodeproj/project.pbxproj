@@ -124,7 +124,10 @@
 		3F09940722FA5CC400B1F99A /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		3F09940822FA5CC400B1F99A /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 		3F09940922FA5CC400B1F99A /* UIImage+ScaleToSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ScaleToSize.swift"; sourceTree = "<group>"; };
-		5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundBook.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F09941622FA70F700B1F99A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LiveView.strings"; sourceTree = "<group>"; };
+		3F09941722FA70F700B1F99A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LiveViewTestAppLaunchScreen.strings"; sourceTree = "<group>"; };
+		3F09941822FA70F800B1F99A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/ManifestPlist.strings"; sourceTree = "<group>"; };
+		5E086DC02051C5A7004D8D25 /* Generative Magic.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Generative Magic.playgroundbook"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
 		5E086DCF2051DF0F004D8D25 /* Manifest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Manifest.plist; sourceTree = "<group>"; };
@@ -169,7 +172,7 @@
 		5E086DA4204F706E004D8D25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */,
+				5E086DC02051C5A7004D8D25 /* Generative Magic.playgroundbook */,
 				5EF2F9AB2054BBF300191409 /* libBook_Sources.a */,
 				5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */,
 			);
@@ -333,7 +336,7 @@
 			);
 			name = PlaygroundBook;
 			productName = PlaygroundBook;
-			productReference = 5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */;
+			productReference = 5E086DC02051C5A7004D8D25 /* Generative Magic.playgroundbook */;
 			productType = "com.apple.product-type.bundle";
 		};
 		5EA2E3BC2056F35A00416A35 /* LiveViewTestApp */ = {
@@ -403,6 +406,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 5E2A7ADC204F611300F4E17A;
 			productRefGroup = 5E086DA4204F706E004D8D25 /* Products */;
@@ -515,6 +519,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5E086DCD2051DDB8004D8D25 /* Base */,
+				3F09941622FA70F700B1F99A /* pt-BR */,
 			);
 			name = LiveView.storyboard;
 			sourceTree = "<group>";
@@ -523,6 +528,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5EA2E3C92056F35B00416A35 /* Base */,
+				3F09941722FA70F700B1F99A /* pt-BR */,
 			);
 			name = LiveViewTestAppLaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -531,6 +537,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5EF2F97D2054B6E400191409 /* en */,
+				3F09941822FA70F800B1F99A /* pt-BR */,
 			);
 			name = ManifestPlist.strings;
 			sourceTree = "<group>";
@@ -585,6 +592,7 @@
 			baseConfigurationReference = 5E0E37522065981C008FA4BE /* BuildSettings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -645,6 +653,7 @@
 			baseConfigurationReference = 5E0E37522065981C008FA4BE /* BuildSettings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
