@@ -25,3 +25,14 @@ public func instantiateLiveView() -> PlaygroundLiveViewable {
     return liveViewController
 }
 
+public func instantiateLiveView(with identifier: String) -> UIViewController {
+    
+    let storyboard = UIStoryboard(name: "LiveView", bundle: nil)
+    
+    let viewController = storyboard.instantiateViewController(withIdentifier: identifier)
+    
+    
+    return viewController
+    
+    
+}
