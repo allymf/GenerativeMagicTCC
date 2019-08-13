@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  PlaygroundBook
+
+  Created by Alysson Moreira on 12/08/19.
+  
+*/
+
+"Select an Image" = "Select an image";
+
+"Now Run your code" = "Now Run Your Code";
+
+"Pick an image" = "Pick an image";
+
+"Select the source of the photo" = "Select the source of the photo";
+
+"Camera" = "Camera";
+
+"Library" = "Library";
+
+"Saved Photos" = "Saved Photos";
