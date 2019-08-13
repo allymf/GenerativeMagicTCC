@@ -7,7 +7,7 @@
 //
 //#-code-completion(everything, hide)
 //#-end-hidden-code
-/*:
+/*:#localized(key: "conclusion")
  I hope you could see the magic in **Generative Art** and all it's potencials.🧙🏼‍♂️
  
  There are great tools for generative art out there, e.g. Processing and Isadora. But now it's up to you to explore.😉
