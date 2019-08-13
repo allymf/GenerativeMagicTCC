@@ -8,11 +8,13 @@
 //#-code-completion(everything, hide)
 
 //#-end-hidden-code
-/*:
+/*:#localized(key: "welcome")
  
  Hi, I'm **Alysson**. That's a picture of myself on the right. 👉🏼
- 
+
  I'm a research intern at **Apple Developer Academy - IFCE**, and undergraduate of **Digital Media and Systems** at **Universidade Federal do Ceará**.
+ 
+ 
  
  ### Prepared for storytime?
  
@@ -26,8 +28,12 @@
  
  Throughout this playground I would like to show you how magical it is.
 
+
  
  [Next Page: Image Processing](@next)
  
  
+ 
  */
+
+

@@ -283,7 +283,7 @@ extension CanvasViewController: UIImagePickerControllerDelegate, UINavigationCon
         resetIteration()
         delegate?.resetCanvas()
         
-        delegate?.displayFeedBack(text: "Now Run your code")
+        delegate?.displayFeedBack(text: NSLocalizedString("Now Run your code", comment: "I Tried"))
         
         if self.cvSettings.size > 0.0 {
 //        timer = Timer.scheduledTimer(timeInterval: 0.01, target: self,   selector: (#selector(CanvasViewController.updateTimer)), userInfo: nil, repeats: true)
@@ -305,21 +305,31 @@ extension CanvasViewController: UIImagePickerControllerDelegate, UINavigationCon
         
         self.timer.invalidate()
         
-        let alert = UIAlertController(title: "Pick an image", message: "Select the source of the photo", preferredStyle: .actionSheet)
+        let title = NSLocalizedString("Pick an image", comment: "Tried Again")
+        let message = NSLocalizedString("Select the source of the photo", comment: "Tried Again")
         
-        alert.addAction(UIAlertAction(title: "Camera", style: .default, handler: { (action) in
+        let camera = NSLocalizedString("Camera", comment: "Tried Again")
+        let library = NSLocalizedString("Library", comment: "Tried Again")
+        let saved = NSLocalizedString("Saved Photos", comment: "Tried Again")
+        
+        let cancel = NSLocalizedString("Cancel", comment: "Tried Again")
+        
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
+        
+        alert.addAction(UIAlertAction(title: camera, style: .default, handler: { (action) in
             self.pickImageFrom(.camera)
         }))
         
-        alert.addAction(UIAlertAction(title: "Library", style: .default, handler: { (action) in
+        alert.addAction(UIAlertAction(title: library, style: .default, handler: { (action) in
             self.pickImageFrom(.photoLibrary)
         }))
         
-        alert.addAction(UIAlertAction(title: "Saved Photos", style: .default, handler: { (action) in
+        alert.addAction(UIAlertAction(title: saved, style: .default, handler: { (action) in
             self.pickImageFrom(.savedPhotosAlbum)
         }))
         
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action) in
+        alert.addAction(UIAlertAction(title: cancel, style: .cancel, handler: { (action) in
             alert.dismiss(animated: true, completion: nil)
         }))
         

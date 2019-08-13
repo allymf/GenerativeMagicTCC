@@ -1,0 +1,38 @@
+
+
+"block1" = "A primeira coisa que eu quero mostrar pra você é a base do processamento de imagens. Usando os dados das imagens para gerar algo baseado nisso, criando uma infinidade de possibilidades criativos. Como a criação de filtros artísticos, análise de cores, glitch art.
+
+Aqui está um exemplo de uma intervenção numa imagem que eu criei usando código:
+
+![Foto de um homem com cabelos longos e cacheados, usando óculos de lente redonda, em escala de cinza; seguida de uma foto de uma galáxia nebulosa primariamente vermelha, ambas com setas na parte inferior apontando para uma caixa com texto escrito 'Meu Filtro', que por sua vez também tem uma seta embaixo apontanto para uma imagem que representa a combinação das duas primeiras fotos usando uma técnica de dupla exposição](ImgFilterShowcase.png \"Foto de um homem com cabelos longos e cacheados, usando óculos de lente redonda, em escala de cinza; seguida de uma foto de uma galáxia nebulosa primariamente vermelha, ambas com setas na parte inferior apontando para uma caixa com texto escrito 'Meu Filtro', que por sua vez também tem uma seta embaixo apontanto para uma imagem que representa a combinação das duas primeiras fotos usando uma técnica de dupla exposição\")
+
+### Mas como isso funciona?
+
+Bem, normalmente você itera sobre uma estrutura que contém dados de cada um dos pixels da imagem, e a cada passo fazer algo com esse dado, como analiza-lo, mudá-lo ou usá-lo para desenhar outra imagem.
+
+
+### Mão na massa:
+
+Abaixo há um laço de repetição for in que itera sobre um array de pixels.
+
+- Experiment:
+É isto que vamos fazer
+
+1. A cada iteração nós vamos desenhar uma forma, usando a função `drawCircleWith` ou `drawSquareWith`.
+
+2. Vamos passar para a função selecionada: os atributos **color** e **position** do pixel atual, bem como **size** para definir o tamanho da forma desenhada.
+
+* callout(Dica):
+Comece com um número pequeno no atributo size, e então experimente valores diferentes para ver o resultado. Mas lembre-se de usar valores maiores que zero para que algo apareça.";
+
+
+"block2" = "3. Após isso você deve Tocar no grande botão branco escrito **Selecionar Imagem** para selecionar o que nós vamos analisar.
+
+4. Finalmente, toque o botão **Executar Meu Código**
+
+
+Se tudo deu certo, você deve ter agora uma versão estilizada da foto que você escolheu. Legal, né? 😄
+
+Se você quiser, toque no botão de três pontos acima na Nav Bar e selecione a opção **Tirar Foto**, para salvar sua obra de arte. Talvez para mostrar para seus amigos nas redes sociais. 😜
+
+[Próxima: ASCII Art](@next)";
