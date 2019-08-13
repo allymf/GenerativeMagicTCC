@@ -40,7 +40,7 @@ func drawSquareWith(_: Color, _: Position, size: Double) {
     liveView.send(.data(data))
 }
 //#-end-hidden-code
-/*:
+/*:#localized(key: "block1")
  The first thing I wanna show to you is the bases of image processing. Using the images data to generate something upon it, create an infinity of creative possibilities. Like the creation artistic filters, color analysis, glitch art.
  
  Here's an example of an image intervention I created using code:
@@ -75,7 +75,7 @@ for pixel in pixels {
     /*#-editable-code Tap to enter code*//*#-end-editable-code*/
 }
 
-/*:
+/*:#localized(key: "block2")
  3. After that you should Tap the big white button written **Pick an image** to select what we are going to analyse.
  
  4. Finally, tap the **Run My Code** button
