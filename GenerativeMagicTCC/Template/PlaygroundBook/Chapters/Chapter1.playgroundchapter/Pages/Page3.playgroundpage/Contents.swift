@@ -6,9 +6,6 @@
 //  The Swift file containing the source code edited by the user of this playground book.
 //
 
-//#-code-completion(everything, hide)
-//#-code-completion(identifier, show, displayNextCharacterIn(fontSize:))
-//#-code-completion(snippet, show, color, position, text, fontSize, chalck, futura, noteworthy)
 
 
 import PlaygroundSupport
@@ -26,16 +23,54 @@ var text: String = ""
 
 let liveView = PlaygroundPage.current.liveView as! PlaygroundRemoteLiveViewProxy
 
-public typealias Position = Int
-public typealias Color = Float
+let initialColor = Color(red: 2, green: 3, blue: 1)
+let initialPosition = Position(x: 0, y: 0)
+public let pixels = [Pixel(at: initialPosition, with: initialColor)]
 
-func displayNextCharacterIn(_: String, _: Color, _: Position, fontSize: Double) {
-    var settings = CanvasSettings(mode: .text, shape: .circle, font: fontType, size: fontSize, step: 0.01, text: text)
-    let data = NSKeyedArchiver.archivedData(withRootObject: settings)
-    liveView.send(.data(data))
+// Assessment Code
+var functionCalled: Bool = false
+
+func assessStatusFor(_ text: String,_ color: Color, _ position: Position, _ fontSize: Double) -> Bool {
+    if functionCalled {
+        
+        if text.count > 0 && color == initialColor && position == initialPosition && fontSize > 0{
+            PlaygroundPage.current.assessmentStatus = .pass(message: "Great job!")
+            return true
+            
+        } else {
+            
+            PlaygroundPage.current.assessmentStatus = .fail(hints: ["Create "], solution: nil)
+            return false
+            
+            
+        }
+        
+        
+    } else {
+        
+        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Create "], solution: nil)
+        return false
+    }
+    
+    
 }
 
-let pixels: [Pixel] = [Pixel(at: 12, with: 11.0)]
+//public typealias Position = Int
+//public typealias Color = Float
+
+func displayNextCharacterIn(text: String, color: Color, position: Position, fontSize: Double) {
+    
+    functionCalled = true
+    if assessStatusFor(text,color, position, fontSize) {
+        var settings = CanvasSettings(mode: .text, shape: .circle, font: fontType, size: fontSize, step: 0.01, text: text)
+        let data = NSKeyedArchiver.archivedData(withRootObject: settings)
+        liveView.send(.data(data))
+    }
+}
+
+//#-code-completion(everything, hide)
+//#-code-completion(identifier, show, displayNextCharacterIn(text:color:position:fontSize:), color, position, text, fontSize, chalck, futura, noteworthy)
+//#-code-completion(description, show, "displayNextCharacterIn(text: String, color: Color, position: Position, fontSize: Double)")
 //#-end-hidden-code
 /*:#localized(key: "block1")
  During the period which typewriters were the standard, some people use to make drawings using the types. This kind of expression evolved when computers were introduced and along with them lots of different characters.
