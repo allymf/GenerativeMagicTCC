@@ -6,39 +6,85 @@
 //  The Swift file containing the source code edited by the user of this playground book.
 //
 
-//#-code-completion(everything, hide)
-//#-code-completion(identifier, show, drawCircleWith(size:), drawSquareWith(size:))
-//#-code-completion(snippet, show, color, position)
+
 import PlaygroundSupport
 import Foundation
 import CoreGraphics
+
+// Assessment Code
+
+var functionCalled: Bool = false
+
 
 // Initial Settings Values
 private let fontType: Font = .chalck
 let text: String = " "
 
-public let pixels = [Pixel(at: 11, with: 19.0)]
+let initialColor = Color(red: 1, green: 1, blue: 1)
+let initialPosition = Position(x: 0, y: 0)
+public let pixels = [Pixel(at: initialPosition, with: initialColor)]
 
 let liveView = PlaygroundPage.current.liveView as! PlaygroundRemoteLiveViewProxy
-public typealias Position = Int
-public typealias Color = Float
+//public typealias Position = Int
+//public typealias Color = Float
 
 func fillColor(_: Color) -> Void {
     print("Boa")
 }
 
-func drawCircleWith(_: Color,_: Position,size: Double)
-{
+func assessStatusFor(_ color: Color, _ position: Position, _ size: Double) -> Bool {
+    if functionCalled {
+        
+        if color == initialColor && position == initialPosition && size > 0 {
+            PlaygroundPage.current.assessmentStatus = .pass(message: "Great job!")
+            return true
+            
+        } else {
+            
+            PlaygroundPage.current.assessmentStatus = .fail(hints: ["Create "], solution: nil)
+            return false
+            
+            
+        }
+        
+        
+    } else {
+        
+        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Create "], solution: nil)
+        return false
+    }
     
-    var settings = CanvasSettings(mode: .shape, shape: .circle, font: fontType, size: size, step: 0.1, text: text)
-    let data = NSKeyedArchiver.archivedData(withRootObject: settings)
-    liveView.send(.data(data))
+    
 }
-func drawSquareWith(_: Color, _: Position, size: Double) {
-    var settings = CanvasSettings(mode: .shape, shape: .square, font: fontType, size: size, step: 0.1, text: text)
-    let data = NSKeyedArchiver.archivedData(withRootObject: settings)
-    liveView.send(.data(data))
+
+func drawCircleWith(color: Color, position: Position,size: Double)
+{
+    functionCalled = !functionCalled
+    
+    if assessStatusFor(color, position, size) {
+    
+        var settings = CanvasSettings(mode: .shape, shape: .circle, font: fontType, size: size, step: 0.1, text: text)
+        let data = NSKeyedArchiver.archivedData(withRootObject: settings)
+            liveView.send(.data(data))
+        
+    }
 }
+func drawSquareWith(color: Color, position: Position, size: Double) {
+    functionCalled = !functionCalled
+    
+    if assessStatusFor(color, position, size) {
+    
+        var settings = CanvasSettings(mode: .shape, shape: .square, font: fontType, size: size, step: 0.1, text: text)
+        let data = NSKeyedArchiver.archivedData(withRootObject: settings)
+        liveView.send(.data(data))
+        
+    }
+}
+
+
+//#-code-completion(everything, hide)
+//#-code-completion(identifier, show, drawCircleWith(color:position:size:), drawSquareWith(color:position:size:), color, position)
+//#-code-completion(description, show, "drawCircleWith(color: Color, position: Position,size: Double)", "drawSquareWith(color: Color, position: Position, size: Double)")
 //#-end-hidden-code
 /*:#localized(key: "block1")
  The first thing I wanna show to you is the bases of image processing. Using the images data to generate something upon it, create an infinity of creative possibilities. Like the creation artistic filters, color analysis, glitch art.
