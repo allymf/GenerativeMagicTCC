@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>generative art</key>
+		<dict>
+			<key>Definition</key>
+			<string>The pretty definition</string>
+			<key>FirstUse</key>
+			<dict/>
+			<key>PageReference</key>
+			<string>Chapter1/Page1</string>
+			<key>Title</key>
+			<string>Generative Art</string>
+		</dict>
+		<key>playground</key>
+		<dict>
+			<key>Definition</key>
+			<string>The pretty definition</string>
+			<key>FirstUse</key>
+			<dict/>
+			<key>PageReference</key>
+			<string>Chapter1/Page1</string>
+			<key>Title</key>
+			<string>Playground Book</string>
+		</dict>
+		<key>glitch art</key>
+		<dict>
+			<key>Definition</key>
+			<string>The pretty definition</string>
+			<key>FirstUse</key>
+			<dict/>
+			<key>PageReference</key>
+			<string>Chapter1/Page2</string>
+			<key>Title</key>
+			<string>Glitch Art</string>
+		</dict>
+		<key>pixel</key>
+		<dict>
+			<key>Definition</key>
+			<string>The pretty definition</string>
+			<key>FirstUse</key>
+			<dict/>
+			<key>PageReference</key>
+			<string>Chapter1/Page2</string>
+			<key>Title</key>
+			<string>Pixel</string>
+		</dict>
+		<key>for</key>
+		<dict>
+			<key>Definition</key>
+			<string>The pretty definition</string>
+			<key>FirstUse</key>
+			<dict/>
+			<key>PageReference</key>
+			<string>Chapter1/Page2</string>
+			<key>Title</key>
+			<string>For</string>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>Definition</key>
+			<string>The pretty definition</string>
+			<key>FirstUse</key>
+			<dict/>
+			<key>PageReference</key>
+			<string>Chapter1/Page2</string>
+			<key>Title</key>
+			<string>Array</string>
+		</dict>
+		<key>type</key>
+		<dict>
+			<key>Definition</key>
+			<string>The pretty definition</string>
+			<key>FirstUse</key>
+			<dict/>
+			<key>PageReference</key>
+			<string>Chapter1/Page3</string>
+			<key>Title</key>
+			<string>Type</string>
+		</dict>
+		<key>lettering</key>
+		<dict>
+			<key>Definition</key>
+			<string>The pretty definition</string>
+			<key>FirstUse</key>
+			<dict/>
+			<key>PageReference</key>
+			<string>Chapter1/Page3</string>
+			<key>Title</key>
+			<string>Lettering</string>
+		</dict>
+		<key>routine</key>
+		<dict>
+			<key>Definition</key>
+			<string>The pretty definition</string>
+			<key>FirstUse</key>
+			<dict/>
+			<key>PageReference</key>
+			<string>Chapter1/Page3</string>
+			<key>Title</key>
+			<string>Routine</string>
+		</dict>
+		<key>ascii art</key>
+		<dict>
+			<key>Definition</key>
+			<string>The pretty definition</string>
+			<key>FirstUse</key>
+			<dict/>
+			<key>PageReference</key>
+			<string>Chapter1/Page3</string>
+			<key>Title</key>
+			<string>ASCII Art</string>
+		</dict>
+		<key>processing</key>
+		<dict>
+			<key>Definition</key>
+			<string>The pretty definition</string>
+			<key>FirstUse</key>
+			<dict/>
+			<key>PageReference</key>
+			<string>Chapter1/Page4</string>
+			<key>Title</key>
+			<string>Processing</string>
+		</dict>
+		<key>isadora</key>
+		<dict>
+			<key>Definition</key>
+			<string>The pretty definition</string>
+			<key>FirstUse</key>
+			<dict/>
+			<key>PageReference</key>
+			<string>Chapter1/Page4</string>
+			<key>Title</key>
+			<string>Isadora</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

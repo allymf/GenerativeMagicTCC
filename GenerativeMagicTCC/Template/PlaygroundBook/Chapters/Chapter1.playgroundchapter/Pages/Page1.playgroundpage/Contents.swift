@@ -24,7 +24,7 @@
  
  During a very dark period of my life, I really felt the need to express my feelings. I spent a lot of time looking for a venue to do so artistically. But I couldn't find one that fit my abilities. I felt the urge to use them in a more creative way.🤔
  
- Last year, I attend a course at my university and there discovered the Generative Art and it blew my mind. 🤯🤩
+ Last year, I attend a course at my university and there discovered the [Generative Art](glossary://generative%20art) and it blew my mind. 🤯🤩
  
  Throughout this playground I would like to show you how magical it is.
 
