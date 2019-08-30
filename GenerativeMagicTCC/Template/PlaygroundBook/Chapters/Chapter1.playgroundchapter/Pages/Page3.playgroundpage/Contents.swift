@@ -73,9 +73,9 @@ func displayNextCharacterIn(text: String, color: Color, position: Position, font
 //#-code-completion(description, show, "displayNextCharacterIn(text: String, color: Color, position: Position, fontSize: Double)")
 //#-end-hidden-code
 /*:#localized(key: "block1")
- During the period which typewriters were the standard, some people use to make drawings using the types. This kind of expression evolved when computers were introduced and along with them lots of different characters.
+ During the period which typewriters were the standard, some people use to make drawings using the [types](glossary://type). This kind of expression evolved when computers were introduced and along with them lots of different characters.
  
- Due to computers limitations at the time, that would render text really well and fast but could not do so with other more complex graphics. People used text to create graphics and different kinds of lettering pieces.
+ Due to computers limitations at the time, that would render text really well and fast but could not do so with other more complex graphics. People used text to create graphics and different kinds of [lettering](glossary://lettering) pieces.
  
  Here’s a little show case:
  
@@ -83,7 +83,7 @@ func displayNextCharacterIn(text: String, color: Color, position: Position, font
  
  ## Hands on:
  
- I hope you remember the image processing routine, because we’re going to use it again to create an ASCII art intervention on an image.
+ I hope you remember the image processing [routine](glossary://routine), because we’re going to use it again to create an [ASCII art](glossary://ascii%20art) intervention on an image.
  
  The code will be very similar, but instead of drawing a shape, we are going to write a **letter** in the pixel’s **position** and using the pixel **color**.
  

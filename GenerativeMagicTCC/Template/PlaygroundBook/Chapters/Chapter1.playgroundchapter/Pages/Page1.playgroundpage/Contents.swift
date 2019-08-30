@@ -26,7 +26,7 @@
  
  Last year, I attend a course at my university and there discovered the [Generative Art](glossary://generative%20art) and it blew my mind. 🤯🤩
  
- Throughout this playground I would like to show you how magical it is.
+ Throughout this [playground](glossary://playground) I would like to show you how magical it is.
 
 
  

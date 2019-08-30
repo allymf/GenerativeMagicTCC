@@ -1,8 +1,8 @@
 
 
-"block1" = "Durante o período em que máquinas de datilografar eram o padrão, algumas pessoas faziam desenhos usando tipos. Esse tipo de expressão evoluiu quando os computadores foram introduzidos e junto com eles vários modelos de caracteres.
+"block1" = "Durante o período em que máquinas de datilografar eram o padrão, algumas pessoas faziam desenhos usando [tipos](glossary://type). Esse tipo de expressão evoluiu quando os computadores foram introduzidos e junto com eles vários modelos de caracteres.
 
-Devido às limitações dos computadores em certa época, que eram capaz de mostrar textos de maneira fácil e rápida, mas não podiam fazer o mesmo com gráficos mais complexos. As pessoas usavam texto para criar gráficos e diferentes tipos de lettering.
+Devido às limitações dos computadores em certa época, que eram capaz de mostrar textos de maneira fácil e rápida, mas não podiam fazer o mesmo com gráficos mais complexos. As pessoas usavam texto para criar gráficos e diferentes tipos de [lettering](glossary://lettering).
 
 Aqui está um pequeno exemplo:
 
@@ -10,7 +10,7 @@ Aqui está um pequeno exemplo:
 
 ## Mão na massa:
 
-Eu espero que você se lembre da rotina de **Processamento de Imagem**, porque nós vamos usá-la de novo para criar uma intervenção ASCII Art em uma imagem.
+Eu espero que você se lembre da [rotina](glossary://routine) de **Processamento de Imagem**, porque nós vamos usá-la de novo para criar uma intervenção [ASCII Art](glossary://ascii%20art) em uma imagem.
 
 O código será bem similar, mas ao invés de desenhar uma forma, nós vamos escrever uma **letra** na posição do pixel (**position**) e usando sua cor (**color**).
 

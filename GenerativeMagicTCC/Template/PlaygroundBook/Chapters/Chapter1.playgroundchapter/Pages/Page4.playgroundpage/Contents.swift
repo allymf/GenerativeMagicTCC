@@ -10,7 +10,7 @@
 /*:#localized(key: "conclusion")
  I hope you could see the magic in **Generative Art** and all it's potencials.🧙🏼‍♂️
  
- There are great tools for generative art out there, e.g. Processing and Isadora. But now it's up to you to explore.😉
+ There are great tools for generative art out there, e.g. [Processing](https://www.processing.org) and [Isadora](https://troikatronix.com/). But now it's up to you to explore.😉
  
  - Note:
  This Playground Book cover, the filtered picture of myself, and the ASCII art lettering were all made using processes of generative art.

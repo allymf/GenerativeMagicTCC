@@ -87,7 +87,7 @@ func drawSquareWith(color: Color, position: Position, size: Double) {
 //#-code-completion(description, show, "drawCircleWith(color: Color, position: Position,size: Double)", "drawSquareWith(color: Color, position: Position, size: Double)")
 //#-end-hidden-code
 /*:#localized(key: "block1")
- The first thing I wanna show to you is the bases of image processing. Using the images data to generate something upon it, create an infinity of creative possibilities. Like the creation artistic filters, color analysis, glitch art.
+ The first thing I wanna show to you is the bases of image processing. Using the images data to generate something upon it, create an infinity of creative possibilities. Like the creation artistic filters, color analysis, [glitch art](glossary://glitch%20art).
  
  Here's an example of an image intervention I created using code:
  
@@ -95,19 +95,19 @@ func drawSquareWith(color: Color, position: Position, size: Double) {
  
  ### But how does it work?
  
- Well, normally you would iterate over a structure that contais every single pixel data from an image, and at each step do something with that data, like analyzing it, changing it or using it to draw another image.
+ Well, normally you would iterate over a structure that contais every single [pixel](glossary://pixel) data from an image, and at each step do something with that data, like analyzing it, changing it or using it to draw another image.
  
  
  ### Hands on:
  
- Down below there is a for in loop that iterates over and array of pixels.
+ Down below there is a [for in](glossary://for) loop that iterates over and [array](glossary://array) of pixels.
  
  - Experiment:
  Here's what we're going to do
  
  1. On each iteration we are going to draw a shape, by using either `drawCircleWith` or `drawSquareWith`.
  
- 2. We are going to pass to the selected function: the pixel’s **color**, its **positions**, and a **size** value
+ 2. We are going to pass to the selected function: the pixel’s **color**, its **position**, and a **size** value
  
  * callout(Tip):
  Start with a lower number for size, and then experiment with different values to see what happens. But remember to use values greater than zero for something to be shown.

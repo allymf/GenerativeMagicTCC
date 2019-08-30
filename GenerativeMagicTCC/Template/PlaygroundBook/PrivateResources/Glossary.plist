@@ -114,28 +114,6 @@
 			<key>Title</key>
 			<string>ASCII Art</string>
 		</dict>
-		<key>processing</key>
-		<dict>
-			<key>Definition</key>
-			<string>The pretty definition</string>
-			<key>FirstUse</key>
-			<dict/>
-			<key>PageReference</key>
-			<string>Chapter1/Page4</string>
-			<key>Title</key>
-			<string>Processing</string>
-		</dict>
-		<key>isadora</key>
-		<dict>
-			<key>Definition</key>
-			<string>The pretty definition</string>
-			<key>FirstUse</key>
-			<dict/>
-			<key>PageReference</key>
-			<string>Chapter1/Page4</string>
-			<key>Title</key>
-			<string>Isadora</string>
-		</dict>
 	</dict>
 </dict>
 </plist>
