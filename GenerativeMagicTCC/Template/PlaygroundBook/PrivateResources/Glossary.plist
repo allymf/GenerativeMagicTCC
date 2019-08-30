@@ -6,113 +6,143 @@
 	<dict>
 		<key>generative art</key>
 		<dict>
+			<key>Title</key>
+			<string>Generative Art</string>
 			<key>Definition</key>
 			<string>The pretty definition</string>
 			<key>FirstUse</key>
-			<dict/>
-			<key>PageReference</key>
-			<string>Chapter1/Page1</string>
-			<key>Title</key>
-			<string>Generative Art</string>
+			<dict>
+				<key>Title</key>
+				<string>Introduction</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page1</string>
+			</dict>
 		</dict>
 		<key>playground</key>
 		<dict>
+			<key>Title</key>
+			<string>Playground Book</string>
 			<key>Definition</key>
 			<string>The pretty definition</string>
 			<key>FirstUse</key>
-			<dict/>
-			<key>PageReference</key>
-			<string>Chapter1/Page1</string>
-			<key>Title</key>
-			<string>Playground Book</string>
+			<dict>
+				<key>Title</key>
+				<string>Introduction</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page1</string>
+			</dict>
 		</dict>
 		<key>glitch art</key>
 		<dict>
+			<key>Title</key>
+			<string>Glitch Art</string>
 			<key>Definition</key>
 			<string>The pretty definition</string>
 			<key>FirstUse</key>
-			<dict/>
-			<key>PageReference</key>
-			<string>Chapter1/Page2</string>
-			<key>Title</key>
-			<string>Glitch Art</string>
+			<dict>
+				<key>Title</key>
+				<string>Image Processing</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page2</string>
+			</dict>
 		</dict>
 		<key>pixel</key>
 		<dict>
+			<key>Title</key>
+			<string>Pixel</string>
 			<key>Definition</key>
 			<string>The pretty definition</string>
 			<key>FirstUse</key>
-			<dict/>
-			<key>PageReference</key>
-			<string>Chapter1/Page2</string>
-			<key>Title</key>
-			<string>Pixel</string>
+			<dict>
+				<key>Title</key>
+				<string>Image Processing</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page2</string>
+			</dict>
 		</dict>
 		<key>for</key>
 		<dict>
+			<key>Title</key>
+			<string>For</string>
 			<key>Definition</key>
 			<string>The pretty definition</string>
 			<key>FirstUse</key>
-			<dict/>
-			<key>PageReference</key>
-			<string>Chapter1/Page2</string>
-			<key>Title</key>
-			<string>For</string>
+			<dict>
+				<key>Title</key>
+				<string>Image Processing</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page2</string>
+			</dict>
 		</dict>
 		<key>array</key>
 		<dict>
+			<key>Title</key>
+			<string>Array</string>
 			<key>Definition</key>
 			<string>The pretty definition</string>
 			<key>FirstUse</key>
-			<dict/>
-			<key>PageReference</key>
-			<string>Chapter1/Page2</string>
-			<key>Title</key>
-			<string>Array</string>
+			<dict>
+				<key>Title</key>
+				<string>Image Processing</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page2</string>
+			</dict>
 		</dict>
 		<key>type</key>
 		<dict>
+			<key>Title</key>
+			<string>Type</string>
 			<key>Definition</key>
 			<string>The pretty definition</string>
 			<key>FirstUse</key>
-			<dict/>
-			<key>PageReference</key>
-			<string>Chapter1/Page3</string>
-			<key>Title</key>
-			<string>Type</string>
+			<dict>
+				<key>Title</key>
+				<string>ASCII Art</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page3</string>
+			</dict>
 		</dict>
 		<key>lettering</key>
 		<dict>
+			<key>Title</key>
+			<string>Lettering</string>
 			<key>Definition</key>
 			<string>The pretty definition</string>
 			<key>FirstUse</key>
-			<dict/>
-			<key>PageReference</key>
-			<string>Chapter1/Page3</string>
-			<key>Title</key>
-			<string>Lettering</string>
+			<dict>
+				<key>Title</key>
+				<string>ASCII Art</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page3</string>
+			</dict>
 		</dict>
 		<key>routine</key>
 		<dict>
+			<key>Title</key>
+			<string>Routine</string>
 			<key>Definition</key>
 			<string>The pretty definition</string>
 			<key>FirstUse</key>
-			<dict/>
-			<key>PageReference</key>
-			<string>Chapter1/Page3</string>
-			<key>Title</key>
-			<string>Routine</string>
+			<dict>
+				<key>Title</key>
+				<string>ASCII Art</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page3</string>
+			</dict>
 		</dict>
 		<key>ascii art</key>
 		<dict>
+			<key>Title</key>
+			<string>ASCII Art</string>
 			<key>Definition</key>
 			<string>The pretty definition</string>
 			<key>FirstUse</key>
-			<dict/>
-			<key>PageReference</key>
-			<string>Chapter1/Page3</string>
-			<key>Title</key>
-			<string>ASCII Art</string>
+			<dict>
+				<key>Title</key>
+				<string>ASCII Art</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page3</string>
+			</dict>
 		</dict>
 	</dict>
 </dict>
