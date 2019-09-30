@@ -1,6 +1,6 @@
 
 
-"block1" = "A primeira coisa que eu quero mostrar pra você é a base do processamento de imagens. Usando os dados das imagens para gerar algo baseado nisso, criando uma infinidade de possibilidades criativos. Como a criação de filtros artísticos, análise de cores, glitch art.
+"block1" = "A primeira coisa que eu quero mostrar pra você é a base do processamento de imagens. Usando os dados das imagens para gerar algo baseado nisso, criando uma infinidade de possibilidades criativos. Como a criação de filtros artísticos, análise de cores, [glitch art](glossary://glitch%20art).
 
 Aqui está um exemplo de uma intervenção numa imagem que eu criei usando código:
 
@@ -8,12 +8,12 @@ Aqui está um exemplo de uma intervenção numa imagem que eu criei usando códi
 
 ### Mas como isso funciona?
 
-Bem, normalmente você itera sobre uma estrutura que contém dados de cada um dos pixels da imagem, e a cada passo fazer algo com esse dado, como analiza-lo, mudá-lo ou usá-lo para desenhar outra imagem.
+Bem, normalmente você itera sobre uma estrutura que contém dados de cada um dos [pixels](glossary://pixel) da imagem, e a cada passo fazer algo com esse dado, como analiza-lo, mudá-lo ou usá-lo para desenhar outra imagem.
 
 
 ### Mão na massa:
 
-Abaixo há um laço de repetição for in que itera sobre um array de pixels.
+Abaixo há um laço de repetição [for in](glossary://for) que itera sobre um [array](glossary://array) de pixels.
 
 - Experiment:
 É isto que vamos fazer
