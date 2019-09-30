@@ -23,7 +23,7 @@
 			<key>Title</key>
 			<string>Playground Book</string>
 			<key>Definition</key>
-			<string>An interactive book, that runs on the Swift Playground app and enables you to write and run swift code within it.</string>
+			<string>An interactive book, that runs on the Swift Playgrounds app and enables you to write and run Swift code within it.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -51,7 +51,7 @@
 			<key>Title</key>
 			<string>Pixel</string>
 			<key>Definition</key>
-			<string>Often regarded to be the tiniest element of a image or display, for which is attributed a color. Contraction of **Pic**ture **el**ement. </string>
+			<string>Often regarded to be the tiniest element of an image or display, for which is attributed a color. Contraction of **Pic**ture **el**ement. </string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -93,7 +93,7 @@
 			<key>Title</key>
 			<string>Type</string>
 			<key>Definition</key>
-			<string>A symbol that share design features within a set (font). It can be a letter, number or any other special character.</string>
+			<string>A symbol that share design features within a set (font). It can represent a letter, number or any other special character.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -121,7 +121,7 @@
 			<key>Title</key>
 			<string>Routine</string>
 			<key>Definition</key>
-			<string>Routine or subroutine, are set of instructions to perform a specific task. Which can be called whenever that task needs to be performed. Usually created to isolated code that is used multiple times.</string>
+			<string>Set of instructions to perform a specific task. Which can be called whenever that task needs to be performed. Usually created to isolated code that is used multiple times.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
