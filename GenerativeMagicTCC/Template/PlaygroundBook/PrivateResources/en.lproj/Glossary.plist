@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Terms</key>
+        <dict>
+            <key>generative art</key>
+            <dict>
+                <key>Title</key>
+                <string>Generative Art</string>
+                <key>Definition</key>
+                <string>Art created by an autonomous system (often a computer program). It can be random or completely deterministic and imperative.</string>
+                <key>FirstUse</key>
+                <dict>
+                    <key>Title</key>
+                    <string>Introduction</string>
+                    <key>PageReference</key>
+                    <string>Chapter1/Page1</string>
+                </dict>
+            </dict>
+            <key>playground</key>
+            <dict>
+                <key>Title</key>
+                <string>Playground Book</string>
+                <key>Definition</key>
+                <string>An interactive book, that runs on the Swift Playgrounds app and enables you to write and run Swift code within it.</string>
+                <key>FirstUse</key>
+                <dict>
+                    <key>Title</key>
+                    <string>Introduction</string>
+                    <key>PageReference</key>
+                    <string>Chapter1/Page1</string>
+                </dict>
+            </dict>
+            <key>glitch art</key>
+            <dict>
+                <key>Title</key>
+                <string>Glitch Art</string>
+                <key>Definition</key>
+                <string>A form of artistic expression that explores the aesthetics of data corruption in digital or analog environments.</string>
+                <key>FirstUse</key>
+                <dict>
+                    <key>Title</key>
+                    <string>Image Processing</string>
+                    <key>PageReference</key>
+                    <string>Chapter1/Page2</string>
+                </dict>
+            </dict>
+            <key>pixel</key>
+            <dict>
+                <key>Title</key>
+                <string>Pixel</string>
+                <key>Definition</key>
+                <string>Often regarded to be the tiniest element of an image or display, for which is attributed a color. Contraction of **Pic**ture **el**ement. </string>
+                <key>FirstUse</key>
+                <dict>
+                    <key>Title</key>
+                    <string>Image Processing</string>
+                    <key>PageReference</key>
+                    <string>Chapter1/Page2</string>
+                </dict>
+            </dict>
+            <key>for</key>
+            <dict>
+                <key>Title</key>
+                <string>&quot;For&quot; loop</string>
+                <key>Definition</key>
+                <string>A programming statement that describe a loop that executes the block of code it contains, until its condition is satisfied. A for loop that iterates an entire array will only stop when it iterates the last element.</string>
+                <key>FirstUse</key>
+                <dict>
+                    <key>Title</key>
+                    <string>Image Processing</string>
+                    <key>PageReference</key>
+                    <string>Chapter1/Page2</string>
+                </dict>
+            </dict>
+            <key>array</key>
+            <dict>
+                <key>Title</key>
+                <string>Array</string>
+                <key>Definition</key>
+                <string>A data structure that consists of a collection of elements with the same type of data. Accessed by index, often starting from 0. </string>
+                <key>FirstUse</key>
+                <dict>
+                    <key>Title</key>
+                    <string>Image Processing</string>
+                    <key>PageReference</key>
+                    <string>Chapter1/Page2</string>
+                </dict>
+            </dict>
+            <key>type</key>
+            <dict>
+                <key>Title</key>
+                <string>Type</string>
+                <key>Definition</key>
+                <string>A symbol that share design features within a set (font). It can represent a letter, number or any other special character.</string>
+                <key>FirstUse</key>
+                <dict>
+                    <key>Title</key>
+                    <string>ASCII Art</string>
+                    <key>PageReference</key>
+                    <string>Chapter1/Page3</string>
+                </dict>
+            </dict>
+            <key>lettering</key>
+            <dict>
+                <key>Title</key>
+                <string>Lettering</string>
+                <key>Definition</key>
+                <string>Pieces that include or simulate hand-drawn letters. It dates back to the works of the people that hand copied books before printers. Usually features highly decorated and stylized letters.</string>
+                <key>FirstUse</key>
+                <dict>
+                    <key>Title</key>
+                    <string>ASCII Art</string>
+                    <key>PageReference</key>
+                    <string>Chapter1/Page3</string>
+                </dict>
+            </dict>
+            <key>routine</key>
+            <dict>
+                <key>Title</key>
+                <string>Routine</string>
+                <key>Definition</key>
+                <string>Set of instructions to perform a specific task. Which can be called whenever that task needs to be performed. Usually created to isolated code that is used multiple times.</string>
+                <key>FirstUse</key>
+                <dict>
+                    <key>Title</key>
+                    <string>ASCII Art</string>
+                    <key>PageReference</key>
+                    <string>Chapter1/Page3</string>
+                </dict>
+            </dict>
+            <key>ascii art</key>
+            <dict>
+                <key>Title</key>
+                <string>ASCII Art</string>
+                <key>Definition</key>
+                <string>A form of artistical expression that uses the characters and symbols of the **A**merican **S**tandard **C**ode for **I**nformation **I**nterchange (ASCII) to create graphical pieces.</string>
+                <key>FirstUse</key>
+                <dict>
+                    <key>Title</key>
+                    <string>ASCII Art</string>
+                    <key>PageReference</key>
+                    <string>Chapter1/Page3</string>
+                </dict>
+            </dict>
+        </dict>
+    </dict>
+</plist>

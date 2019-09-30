@@ -25,7 +25,7 @@
 		3F09941422FA601A00B1F99A /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940322FA5CC400B1F99A /* ShapeType.swift */; };
 		3F09941522FA602A00B1F99A /* UIImage+ScaleToSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940922FA5CC400B1F99A /* UIImage+ScaleToSize.swift */; };
 		3F1DB1492302588700BD1CD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1DB14B2302588700BD1CD5 /* Localizable.strings */; };
-		3FDC001F231628DD00BAAC0E /* Glossary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC001E231628DD00BAAC0E /* Glossary.plist */; };
+		3FD4216D234263B1009329E1 /* Glossary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4216B234263B1009329E1 /* Glossary.plist */; };
 		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
 		5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */; };
@@ -131,7 +131,8 @@
 		3F09941822FA70F800B1F99A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/ManifestPlist.strings"; sourceTree = "<group>"; };
 		3F1DB14A2302588700BD1CD5 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		3F1DB14C2302589400BD1CD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		3FDC001E231628DD00BAAC0E /* Glossary.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Glossary.plist; sourceTree = "<group>"; };
+		3FD4216C234263B1009329E1 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "pt-BR"; path = "pt-BR.lproj/Glossary.plist"; sourceTree = "<group>"; };
+		3FD4216E234263CC009329E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Glossary.plist; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* Generative Magic.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Generative Magic.playgroundbook"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
@@ -283,6 +284,7 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				3FD4216B234263B1009329E1 /* Glossary.plist */,
 				3F0993F622FA4FA800B1F99A /* Cover.png */,
 				3F0993F522FA4FA800B1F99A /* ImgFilterShowcase.png */,
 				3F0993F422FA4FA700B1F99A /* me.png */,
@@ -290,7 +292,6 @@
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
 				3F1DB14B2302588700BD1CD5 /* Localizable.strings */,
-				3FDC001E231628DD00BAAC0E /* Glossary.plist */,
 			);
 			path = PrivateResources;
 			sourceTree = "<group>";
@@ -436,7 +437,7 @@
 				3F0993FA22FA4FA800B1F99A /* Cover.png in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				3F1DB1492302588700BD1CD5 /* Localizable.strings in Resources */,
-				3FDC001F231628DD00BAAC0E /* Glossary.plist in Resources */,
+				3FD4216D234263B1009329E1 /* Glossary.plist in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 				3F0993F822FA4FA800B1F99A /* me.png in Resources */,
 				3F0993F922FA4FA800B1F99A /* ImgFilterShowcase.png in Resources */,
@@ -531,6 +532,15 @@
 				3F1DB14C2302589400BD1CD5 /* en */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		3FD4216B234263B1009329E1 /* Glossary.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD4216C234263B1009329E1 /* pt-BR */,
+				3FD4216E234263CC009329E1 /* en */,
+			);
+			name = Glossary.plist;
 			sourceTree = "<group>";
 		};
 		5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */ = {

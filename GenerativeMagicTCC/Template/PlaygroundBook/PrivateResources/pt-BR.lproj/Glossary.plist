@@ -7,9 +7,9 @@
 		<key>generative art</key>
 		<dict>
 			<key>Title</key>
-			<string>Generative Art</string>
+			<string>Arte Generativa</string>
 			<key>Definition</key>
-			<string>Art created by an autonomous system (often a computer program). It can be random or completely deterministic and imperative.</string>
+			<string>Arte criada por um sistema autônomo (geralmente um programa de computador). Pode ser aleatório ou completamente determinístico e imperativo.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -23,7 +23,7 @@
 			<key>Title</key>
 			<string>Playground Book</string>
 			<key>Definition</key>
-			<string>An interactive book, that runs on the Swift Playgrounds app and enables you to write and run Swift code within it.</string>
+			<string>Um livro interativo, que roda no aplicativo Swift Playground, que permite escrever e rodar código Swift dentro dele.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -37,7 +37,7 @@
 			<key>Title</key>
 			<string>Glitch Art</string>
 			<key>Definition</key>
-			<string>A form of artistic expression that explores the aesthetics of data corruption in digital or analog environments.</string>
+			<string>Uma forma de expressão artística que explora a estética de dados corrompidos em ambientes digitais ou analógicos.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -51,7 +51,7 @@
 			<key>Title</key>
 			<string>Pixel</string>
 			<key>Definition</key>
-			<string>Often regarded to be the tiniest element of an image or display, for which is attributed a color. Contraction of **Pic**ture **el**ement. </string>
+			<string>Geralmente referido como o menor elemento de uma imagem ou tela, ao qual é atribuído uma cor. Contração das palavras **Pic**ture e **el**ement. </string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -63,9 +63,9 @@
 		<key>for</key>
 		<dict>
 			<key>Title</key>
-			<string>&quot;For&quot; loop</string>
+			<string>Loop &quot;For&quot;</string>
 			<key>Definition</key>
-			<string>A programming statement that describe a loop that executes the block of code it contains, until its condition is satisfied. A for loop that iterates an entire array will only stop when it iterates the last element.</string>
+			<string>É um recurso programático que descreve um loop, que executa o bloco de código contido nele até que a sua condição seja satisfeita. Um Loop “For&quot; que itera um array inteiro só irá para quando iterar o último elemento do mesmo.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -79,7 +79,7 @@
 			<key>Title</key>
 			<string>Array</string>
 			<key>Definition</key>
-			<string>A data structure that consists of a collection of elements with the same type of data. Accessed by index, often starting from 0. </string>
+			<string>Uma estrutura de dados que consiste numa coleção de elementos com mesmo tipo de dado. É acessado por índice, geralmente começando de 0.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -91,9 +91,9 @@
 		<key>type</key>
 		<dict>
 			<key>Title</key>
-			<string>Type</string>
+			<string>Tipo</string>
 			<key>Definition</key>
-			<string>A symbol that share design features within a set (font). It can represent a letter, number or any other special character.</string>
+			<string>Um símbolo que compartilha characteristics de design dentro de um conjunto (fonte). Pode representar uma letra, número ou qualquer outro caracter especial.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -107,7 +107,7 @@
 			<key>Title</key>
 			<string>Lettering</string>
 			<key>Definition</key>
-			<string>Pieces that include or simulate hand-drawn letters. It dates back to the works of the people that hand copied books before printers. Usually features highly decorated and stylized letters.</string>
+			<string>Peças contendo ou simulando letras escritas a mão. Remonta ao trabalho das pessoas que copiavam a mão livros, antes das impressoras existirem. Geralmente apresenta letras altamente decoradas e estilizadas.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -119,9 +119,9 @@
 		<key>routine</key>
 		<dict>
 			<key>Title</key>
-			<string>Routine</string>
+			<string>Rotina</string>
 			<key>Definition</key>
-			<string>Set of instructions to perform a specific task. Which can be called whenever that task needs to be performed. Usually created to isolated code that is used multiple times.</string>
+			<string>Conjunto de instruções que executam uma determinada tarefa. Podem ser chamadas sempre que essa tarefa deve ser executada. Geralmente são criadas para isolar código que é usado várias vezes.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -135,7 +135,7 @@
 			<key>Title</key>
 			<string>ASCII Art</string>
 			<key>Definition</key>
-			<string>A form of artistical expression that uses the characters and symbols of the **A**merican **S**tandard **C**ode for **I**nformation **I**nterchange (ASCII) to create graphical pieces.</string>
+			<string>Uma forma de expressão artistica que usa os caracteres e simbolos do **A**merican **S**tandard **C**ode for **I**nformation **I**nterchange (ASCII) pra criar peças gráficas.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
