@@ -10,7 +10,9 @@
 //#-end-hidden-code
 /*:#localized(key: "welcome")
  
- Hi, I'm **Alysson**. That's a picture of myself on the right. 👉🏼
+ Hi, I'm **Alysson**. That's a picture of myself on the right. 👇🏼
+ 
+ ![Photo of a man with long curly hair, using rounded glasses, with an effect of double exposure with an image of a nebulous galaxy](me.png "Photo of a man with long curly hair, using rounded glasses, with an effect of double exposure with an image of a nebulous galaxy")
 
  I'm a research intern at **Apple Developer Academy - IFCE**, and undergraduate of **Digital Media and Systems** at **Universidade Federal do Ceará**.
  
