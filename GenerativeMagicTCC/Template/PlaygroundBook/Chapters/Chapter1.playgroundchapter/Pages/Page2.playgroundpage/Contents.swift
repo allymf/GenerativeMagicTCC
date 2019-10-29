@@ -37,15 +37,15 @@ func assessStatusFor(_ color: Color, _ position: Position, _ size: Double) -> Bo
         
         if color == initialColor && position == initialPosition && size > 0 {
             
-            let passMessage = NSLocalizedString("PassI2", comment: "I Tried")
+            let passMessage = NSLocalizedString("PassI1", comment: "I Tried")
             
             PlaygroundPage.current.assessmentStatus = .pass(message: passMessage)
             return true
             
         } else {
             
-            let hint1 = NSLocalizedString("Hint1I2", comment: "I Tried")
-            let hint2 = NSLocalizedString("Hint2I2", comment: "I Tried")
+            let hint1 = NSLocalizedString("Hint1I1", comment: "I Tried")
+            let hint2 = NSLocalizedString("Hint2I1", comment: "I Tried")
             
             let hints = [hint1, hint2]
             
@@ -58,7 +58,7 @@ func assessStatusFor(_ color: Color, _ position: Position, _ size: Double) -> Bo
         
     } else {
         
-        let hint = NSLocalizedString("HintGI2", comment: "I Tried")
+        let hint = NSLocalizedString("HintGI1", comment: "I Tried")
         
         PlaygroundPage.current.assessmentStatus = .fail(hints: [hint], solution: nil)
         return false

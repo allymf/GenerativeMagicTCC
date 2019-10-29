@@ -21,11 +21,23 @@
 "Saved Photos" = "Fotos Salvas";
 
 
-"PassI2" = "Bom trabalho! Você digitou o código apropriado para criar a peça. Se a peça não apareceu, tente selecionar uma imagem.
+"PassI1" = "Bom trabalho! Você digitou o código apropriado para criar a peça. Se a peça não apareceu, tente selecionar uma imagem.
 Nós vamos expandir nesses conceitos na [próxima página](@next).";
 
-"Hint1I2" = "Lembre de chamar a função `drawCircleWith` ou `drawSquareWith`, e também de passar a variável **color** e **position** extraídas do pixel atual.";
+"Hint1I1" = "Lembre de chamar a função `drawCircleWith` ou `drawSquareWith`, e também de passar a variável **color** e **position** extraídas do pixel atual.";
 
-"Hint2I2" = "Se preocupe também do valor passado no parâmetro **size** da function.";
+"Hint2I1" = "Se preocupe também do valor passado no parâmetro **size** da function.";
 
-"HintGI2" = "Use uma das funções de formas previamente citadas e passe as duas variáveis no laço de repetição for in. Não se esqueça de escolher uma imagem.";
+"HintGI1" = "Use uma das funções de formas previamente citadas e passe as duas variáveis no laço de repetição for in. Não se esqueça de escolher uma imagem.";
+
+"PassI2" = "Muito bem! Você pode brincar um pouco com o tipo da fonte, seu tamanho e também o texto para conseguir resultados diferentes. Se a peça não apareceu, tente selecionar uma imagem.";
+
+"Hint1I2" = "Lembre-se de colocar um texto que não esteja vazio.";
+
+"Hint2I2" = "Lembre também de passar as variáveis **color** e **position** do pixel atual.";
+
+"Hint3I2" = "Atente para o valor passado no campo **fontSize**.";
+
+"Hint4I2" = "Também é importante que a variável  **fontType** tenha um valor válido (chalk, futura ou noteworthy).";
+
+"HintGI2" = "Lembre de usar a função `displayNextCharacterIn`";

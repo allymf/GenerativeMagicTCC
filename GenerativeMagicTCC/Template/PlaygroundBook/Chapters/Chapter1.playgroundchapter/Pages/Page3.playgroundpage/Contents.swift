@@ -34,12 +34,22 @@ func assessStatusFor(_ text: String,_ color: Color, _ position: Position, _ font
     if functionCalled {
         
         if text.count > 0 && color == initialColor && position == initialPosition && fontSize > 0{
-            PlaygroundPage.current.assessmentStatus = .pass(message: "Great job!")
+            
+            let passMessage = NSLocalizedString("PassI2", comment: "I Tried")
+            
+            PlaygroundPage.current.assessmentStatus = .pass(message: passMessage)
             return true
             
         } else {
             
-            PlaygroundPage.current.assessmentStatus = .fail(hints: ["Create "], solution: nil)
+            let hint1 = NSLocalizedString("Hint1I2", comment: "I Tried")
+            let hint2 = NSLocalizedString("Hint2I2", comment: "I Tried")
+            let hint3 = NSLocalizedString("Hint3I2", comment: "I Tried")
+            let hint4 = NSLocalizedString("Hint4I2", comment: "I Tried")
+            
+            let hints = [hint1,hint2,hint3,hint4]
+            
+            PlaygroundPage.current.assessmentStatus = .fail(hints: hints, solution: nil)
             return false
             
             
@@ -48,7 +58,9 @@ func assessStatusFor(_ text: String,_ color: Color, _ position: Position, _ font
         
     } else {
         
-        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Create "], solution: nil)
+        let hint = NSLocalizedString("HintGI2", comment: "I Tried")
+        
+        PlaygroundPage.current.assessmentStatus = .fail(hints: [hint], solution: nil)
         return false
     }
     
