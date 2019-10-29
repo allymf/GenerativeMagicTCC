@@ -93,7 +93,7 @@
 			<key>Title</key>
 			<string>Tipo</string>
 			<key>Definition</key>
-			<string>Um símbolo que compartilha characteristics de design dentro de um conjunto (fonte). Pode representar uma letra, número ou qualquer outro caracter especial.</string>
+			<string>Um símbolo que compartilha características de design dentro de um conjunto (fonte). Pode representar uma letra, número ou qualquer outro caractere especial.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>
@@ -107,7 +107,7 @@
 			<key>Title</key>
 			<string>Lettering</string>
 			<key>Definition</key>
-			<string>Peças contendo ou simulando letras escritas a mão. Remonta ao trabalho das pessoas que copiavam a mão livros, antes das impressoras existirem. Geralmente apresenta letras altamente decoradas e estilizadas.</string>
+			<string>Peças contendo ou simulando letras escritas a mão. Remonta ao trabalho das pessoas que copiavam livros a mão, antes das impressoras existirem. Geralmente apresenta letras altamente decoradas e estilizadas.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>Title</key>

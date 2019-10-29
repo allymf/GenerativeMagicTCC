@@ -19,3 +19,24 @@
 "Library" = "Library";
 
 "Saved Photos" = "Saved Photos";
+
+"PassI1" = "Great job! You typed the appropriate code to create the piece. If the piece didn’t appear, try selecting an image.
+We’re going to expand on this concepts on the [next page](@next).";
+
+"Hint1I1" = "Remember to call either `drawCircleWith` or `drawSquareWith`, and also pass it the pixel’s *color* and *position*";
+
+"Hint2I1" = "Also mind the size value passed to the function.";
+
+"HintGI1" = "Use one of the previously said shape functions and pass it the two variable inside the for in loop. Don't forget to pick an image";
+
+"PassI2" = "Way to go! You can play around with the font type, font size and also the text to get different results. If the piece didn't appear, try selecting an image.";
+
+"Hint1I2" = "Remember to use a non empty text value.";
+
+"Hint2I2" = "Also remember to pass on the pixel’s **color** and **position**.";
+
+"Hint3I2" = "Do mind the the value given to the **fontSize** parameter.";
+
+"Hint4I2" = "It’s also important that the variable **fontType** has a valid value (chalk, futura or noteworthy)";
+
+"HintGI2" = "Remember to use the `displayNextCharacterIn` function";
