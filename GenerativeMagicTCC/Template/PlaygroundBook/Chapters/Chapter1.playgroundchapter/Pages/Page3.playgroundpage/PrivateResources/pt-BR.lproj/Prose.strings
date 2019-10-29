@@ -2,7 +2,7 @@
 
 "block1" = "Durante o período em que máquinas de datilografar eram o padrão, algumas pessoas faziam desenhos usando [tipos](glossary://type). Esse tipo de expressão evoluiu quando os computadores foram introduzidos e junto com eles vários modelos de caracteres.
 
-Devido às limitações dos computadores em certa época, que eram capaz de mostrar textos de maneira fácil e rápida, mas não podiam fazer o mesmo com gráficos mais complexos. As pessoas usavam texto para criar gráficos e diferentes tipos de [lettering](glossary://lettering).
+Devido às limitações dos computadores em determinada época, que eram capazes de mostrar textos de maneira fácil e rápida, mas não podiam fazer o mesmo com gráficos mais complexos. As pessoas usavam texto para criar gráficos e diferentes tipos de [lettering](glossary://lettering).
 
 Aqui está um pequeno exemplo:
 
@@ -25,6 +25,6 @@ Você pode criar uma ASCII art da sua foto usando seu nome, não há nada mais p
 
 O Laço de repetição for in está abaixo. Bem familiar, não é? Mas agora nós vamos usar uma função chamada `displayNextCharacterIn`";
 
-"block3" = "Se sentindo orgulhoso da sua criação? Toque o botão de três pontos e então toque em **Tirar Foto**, então você ponde imprimir, emoldurar e colocar na sua parede. 😎
+"block3" = "Se sentindo orgulhoso da sua criação? Toque o botão de três pontos e então toque em **Tirar Foto**, então você pode imprimir, emoldurar e colocar na sua parede. 😎
 
 [Próxima: Conclusão](@next)";
