@@ -24,17 +24,26 @@ class CanvasSKScene: SKScene {
     public override func didMove(to: SKView) {
         self.selectNode = SKLabelNode(text: NSLocalizedString("Select an Image", comment: "I Tried"))
         self.selectNode.fontSize = 30
-        if #available(iOS 11.0, *) {
-            self.selectNode.numberOfLines = 45
-        }
         self.selectNode.fontColor = .white
         self.selectNode.fontName = "Futura-Bold"
         self.selectNode.verticalAlignmentMode = .center
         self.selectNode.horizontalAlignmentMode = .center
         self.selectNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height/2)
+        
+        adjustTextSizeToFit()
 
         self.addChild(self.selectNode)
 
+        
+    }
+    
+    public func adjustTextSizeToFit() {
+        
+        let factor = (self.frame.size.width-32)/self.selectNode.frame.size.width
+        
+        let scale = factor > 1.0 ? factor-1.0 : factor
+
+        selectNode.fontSize *= scale
         
     }
     
@@ -49,6 +58,7 @@ class CanvasSKScene: SKScene {
 extension CanvasSKScene: CanvasDelegate {
     func displayFeedBack(text: String) {
         self.selectNode.text = text
+        adjustTextSizeToFit()
     }
     
     func resetCanvas() {
