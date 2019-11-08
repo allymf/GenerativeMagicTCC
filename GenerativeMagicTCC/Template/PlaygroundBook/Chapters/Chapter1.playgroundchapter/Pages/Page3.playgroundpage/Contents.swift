@@ -91,7 +91,7 @@ func displayNextCharacterIn(text: String, color: Color, position: Position, font
  
  Here’s a little show case:
  
- ![An ASCII Art style lettering, reading WWDC 19](wwdc19.png "An ASCII Art style lettering, reading WWDC 19")
+ ![An ASCII Art style lettering, reading SMD](smd.png "An ASCII Art style lettering, reading SMD")
  
  ## Hands on:
  
@@ -106,7 +106,7 @@ func displayNextCharacterIn(text: String, color: Color, position: Position, font
  */
 
 // Text Configuration
-text = /*#-editable-code Text to be shown*/"WWDC"/*#-end-editable-code*/
+text = /*#-editable-code Text to be shown*/"SMD"/*#-end-editable-code*/
 
 // Available fonts are chalck, futura, noteworthy
 fontType = /*#-editable-code*/chalck/*#-end-editable-code*/
