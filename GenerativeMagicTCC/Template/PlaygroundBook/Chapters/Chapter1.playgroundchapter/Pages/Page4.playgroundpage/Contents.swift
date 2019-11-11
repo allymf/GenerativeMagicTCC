@@ -27,7 +27,7 @@
  The Starburst in a Dwarf Irregular Galaxy image used in the filter showcase:
  public domain in the United States because it was solely created by NASA. NASA copyright policy states that "NASA material is not protected by copyright unless noted"
  
- The WWDC19 ASCII art lettering: Creative Commons Attribution 3.0 License, [ASCII Figlet Generator](https://www.askapache.com/online-tools/figlet-ascii/) , free to use and modify granted you credit it by linking its site.
+ The SMD ASCII art lettering: Creative Commons Attribution 3.0 License, [ASCII Figlet Generator](https://www.askapache.com/online-tools/figlet-ascii/) , free to use and modify granted you credit it by linking its site.
  
  
  

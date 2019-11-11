@@ -72,7 +72,7 @@ func assessStatusFor(_ text: String,_ color: Color, _ position: Position, _ font
 
 func displayNextCharacterIn(text: String, color: Color, position: Position, fontSize: Double) {
     
-    functionCalled = true
+    functionCalled = !functionCalled
     if assessStatusFor(text,color, position, fontSize) {
         var settings = CanvasSettings(mode: .text, shape: .circle, font: fontType, size: fontSize, step: 0.01, text: text)
         let data = NSKeyedArchiver.archivedData(withRootObject: settings)
@@ -125,7 +125,7 @@ for pixel in pixels {
     let color: Color = pixel.color
     let position: Position = pixel.position
     
-    /*#-editable-code Tap to enter code*//*#-end-editable-code*/
+    /*#-editable-code Tap to enter code*/<#code#>/*#-end-editable-code*/    
 }
 
 /*:#localized(key: "block3")

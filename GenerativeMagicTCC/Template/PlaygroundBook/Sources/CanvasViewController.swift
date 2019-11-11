@@ -67,6 +67,22 @@ class CanvasViewController: UIViewController, PlaygroundLiveViewSafeAreaContaine
         // Setting Tap Action to btPickImage
         self.btPickImage.addTarget(self, action: #selector(CanvasViewController.didTapPick(_:)), for: .touchUpInside)
         
+        /*
+         * Aesthetics changes to make the button
+         * look in place within Swift Playgrounds
+         */
+        
+        // Round the corners
+        let btHeight = self.btPickImage.bounds.height
+        self.btPickImage.layer.cornerRadius = btHeight/2
+        
+        // Dim the alpha of the background
+        self.btPickImage.backgroundColor = UIColor(displayP3Red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)
+        
+        // Increase textSize
+        let font = self.btPickImage.titleLabel?.font
+        self.btPickImage.titleLabel?.font = font?.withSize(18)
+        
         
         // Configuring the scene and the skView
         scene = CanvasSKScene(size: spriteKitView.frame.size)
