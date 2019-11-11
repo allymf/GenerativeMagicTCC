@@ -125,8 +125,7 @@ for pixel in pixels {
     let color: Color = pixel.color
     let position: Position = pixel.position
     
-    /*#-editable-code Tap to enter code*/<#code#>/*#-end-editable-code*/
-    
+    /*#-editable-code Tap to enter code*/<#code#>/*#-end-editable-code*/    
 }
 
 /*:#localized(key: "block3")
