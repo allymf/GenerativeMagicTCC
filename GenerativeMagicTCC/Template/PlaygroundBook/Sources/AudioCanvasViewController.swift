@@ -95,7 +95,6 @@ public class AudioCanvasViewController: UIViewController, PlaygroundLiveViewSafe
         self.canvas.clear()
     }
     
-    
 }
 
 // DEBUG ONLY
@@ -109,6 +108,54 @@ public class AudioCanvasViewController: UIViewController, PlaygroundLiveViewSafe
 //
 //    }
 //}
+
+// -MARK: PG MessageHandler
+extension AudioCanvasViewController: PlaygroundLiveViewMessageHandler {
+    public func liveViewMessageConnectionOpened() {
+        // Implement this method to be notified when the live view message connection is opened.
+        // The connection will be opened when the process running Contents.swift starts running and listening for messages.
+        //self.undoButton.setTitle("Abriu", for: .normal)
+    }
+    
+    public func liveViewMessageConnectionClosed() {
+        // Implement this method to be notified when the live view message connection is closed.
+        // The connection will be closed when the process running Contents.swift exits and is no longer listening for messages.
+        // This happens when the user's code naturally finishes running, if the user presses Stop, or if there is a crash.
+        //self.undoButton.setTitle("Fechou", for: .normal)
+    }
+    
+    
+    public func receive(_ message: PlaygroundValue) {
+        // Implement this method to receive messages sent from the process running Contents.swift.
+        // This method is *required* by the PlaygroundLiveViewMessageHandler protocol.
+        // Use this method to decode any messages sent as PlaygroundValue values and respond accordingly.
+        
+        //delegate?.setupWith(fontName: self.fontName, fontSize: diameter)
+        //delegate?.resetCanvas()
+        //self.resetIteration()
+        
+        //self.lbDebug.text = "Recebeu"
+        //self.undoButton.setTitle("Recebeu", for: .normal)
+        
+        switch message {
+        case .string( _):
+            break
+        //self.text = value
+        case .data(let value):
+            guard let newSettings = NSKeyedUnarchiver.unarchiveObject(with: value) as? AudioInteractionSettings else {break}
+            self.setting = newSettings
+            //setUpFor(newSettings)
+            
+        default:
+            self.undoButton.setTitle("Carai Burracha", for: .normal)
+        }
+        
+    }
+        
+    
+    
+    
+}
 
 extension AudioCanvasViewController: AudioManagerDelegate {
     func didUpdatePitch(_ value: CGFloat) {

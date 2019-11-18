@@ -91,7 +91,7 @@ func drawCircleWith(color: Color, position: Position, size: Double) {
     
     if assessStatusFor(color, position, size) {
         
-        var settings = AudioInteractionSettings(minimumSize: minimumSize, maximumSize: maximumSize, initialColor: initialColor, highestColor: highestColor)
+        var settings = AudioInteractionSettings(minimumSize: minimumSize, maximumSize: maximumSize, initialColor: initialColor.getTranslucent(), highestColor: highestColor.getTranslucent())
         let data = NSKeyedArchiver.archivedData(withRootObject: settings)
         liveView.send(.data(data))
         

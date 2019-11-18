@@ -52,4 +52,16 @@ extension UIColor {
         
     }
     
+    public func getTranslucent() -> UIColor {
+        guard let cp = self.cgColor.components else { fatalError("Unexpected nil color") }
+        
+        let red = cp[0]
+        let green = cp[1]
+        let blue  = cp[2]
+        
+        let newAlpha = CGFloat(0.5)
+        
+        return UIColor(displayP3Red: red, green: green, blue: blue, alpha: newAlpha)
+    }
+    
 }
