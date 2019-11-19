@@ -28,6 +28,10 @@ func getIntermediateColor(from firstColor: Color, to secondColor: Color, by fact
     return UIColor.getIntermediateHue(from: firstColor, to: secondColor, by: CGFloat(factor))
 }
 
+//currentSize = minimumSize + (maximumSize * value)
+//currentColor = getIntermediateColor(from: initialColor, to: highestColor, by: value)
+
+//drawCircleWith(color: currentColor, position: position, size: currentSize)
 
 //#-end-hidden-code
 //#-code-completion(everything, hide)
@@ -54,16 +58,13 @@ func didUpdatePitch(with value: Double) {
     currentSize = /*#-editable-code*/<#code#>/*#-end-editable-code*/
     currentColor = /*#-editable-code*/<#code#>/*#-end-editable-code*/
     
-    //currentSize = minimumSize + (maximumSize * value)
-    //currentColor = getIntermediateColor(from: initialColor, to: highestColor, by: value)
-    
 }
 
 //#-hidden-code
 
 func assessStatusFor(_ color: Color, _ position: Position, _ size: Double) -> Bool {
     if functionCalled {
-        //
+        
         if color == currentColor && position == initialPosition && size > 0 &&
             color == getIntermediateColor(from: initialColor, to: highestColor, by: factor) && size == currentSize {
             
@@ -113,7 +114,6 @@ func drawCircleWith(color: Color, position: Position, size: Double) {
 func handleTouch(at position: Position) {
     
     /*#-editable-code*/<#code#>/*#-end-editable-code*/
-    //drawCircleWith(color: currentColor, position: position, size: currentSize)
     
 }
 
