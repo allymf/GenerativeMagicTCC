@@ -11,10 +11,11 @@ import UIKit
 
 typealias Color = UIColor
 
-//#-end-hidden-code
+
 
 // Assessment Code
 var functionCalled: Bool = false
+let factor = 0.1231293298988
 
 let initialPosition = Position(x: 0, y: 0)
 
@@ -27,10 +28,44 @@ func getIntermediateColor(from firstColor: Color, to secondColor: Color, by fact
     return UIColor.getIntermediateHue(from: firstColor, to: secondColor, by: CGFloat(factor))
 }
 
+
+//#-end-hidden-code
+//#-code-completion(everything, hide)
+//#-code-completion(identifier, show, drawCircleWith(color:position:size:), getIntermediateColor(from:to:by:), initialColor, highestColor, minimumSize, maximumSize, currentSize, currentColor, position, value)
+//#-code-completion(description, show, "drawCircleWith(color: Color, position: Position,size: Double)", "getIntermediateColor(from: Color, to: Color, by: Double)")
+/*:#localized(key: "conclusion")
+ Diferentiated Audio
+ */
+
+
+let minimumSize: Double = /*#-editable-code*/<#T##Minimum circle size##Double#>/*#-end-editable-code*/
+let maximumSize: Double = /*#-editable-code*/<#T##Maximum circle size##Double#>/*#-end-editable-code*/
+
+
+let initialColor: Color = /*#-editable-code Base color*/#colorLiteral(red: 0.9290261865, green: 0.8611106277, blue: 0, alpha: 0.5)/*#-end-editable-code*/
+let highestColor: Color = /*#-editable-code Top color*/#colorLiteral(red: 0.264562726, green: 0.1883445978, blue: 1, alpha: 0.5)/*#-end-editable-code*/
+
+
+var currentSize: Double = minimumSize
+var currentColor: Color = initialColor
+
+func didUpdatePitch(with value: Double) {
+    
+    currentSize = /*#-editable-code*/<#code#>/*#-end-editable-code*/
+    currentColor = /*#-editable-code*/<#code#>/*#-end-editable-code*/
+    
+    //currentSize = minimumSize + (maximumSize * value)
+    //currentColor = getIntermediateColor(from: initialColor, to: highestColor, by: value)
+    
+}
+
+//#-hidden-code
+
 func assessStatusFor(_ color: Color, _ position: Position, _ size: Double) -> Bool {
     if functionCalled {
-        //color == currentColor &&
-        if position == initialPosition && size > 0 {
+        //
+        if color == currentColor && position == initialPosition && size > 0 &&
+            color == getIntermediateColor(from: initialColor, to: highestColor, by: factor) && size == currentSize {
             
             let passMessage = NSLocalizedString("PassI1", comment: "I Tried")
             
@@ -62,30 +97,6 @@ func assessStatusFor(_ color: Color, _ position: Position, _ size: Double) -> Bo
     
 }
 
-//#-code-completion(everything, hide)
-/*:#localized(key: "conclusion")
- Diferentiated Audio
- */
-
-
-let minimumSize: Double = /*#-editable-code*/<#T##Minimum circle size##Double#>/*#-end-editable-code*/
-let maximumSize: Double = /*#-editable-code*/<#T##Maximum circle size##Double#>/*#-end-editable-code*/
-
-
-let initialColor: Color = /*#-editable-code Base color*/#colorLiteral(red: 0.9290261865, green: 0.8611106277, blue: 0, alpha: 0.5)/*#-end-editable-code*/
-let highestColor: Color = /*#-editable-code Top color*/#colorLiteral(red: 0.264562726, green: 0.1883445978, blue: 1, alpha: 0.5)/*#-end-editable-code*/
-
-
-var currentSize: Double = minimumSize
-var currentColor: Color = initialColor
-
-func didUpdatePitch(with value: Double) {
-    
-    currentSize = minimumSize + (maximumSize * value)
-    currentColor = getIntermediateColor(from: initialColor, to: highestColor, by: value)
-    
-}
-
 func drawCircleWith(color: Color, position: Position, size: Double) {
     functionCalled = !functionCalled
     
@@ -97,22 +108,19 @@ func drawCircleWith(color: Color, position: Position, size: Double) {
         
     }
 }
-
+//#-end-hidden-code
 
 func handleTouch(at position: Position) {
     
-    drawCircleWith(color: currentColor, position: position, size: currentSize)
+    /*#-editable-code*/<#code#>/*#-end-editable-code*/
+    //drawCircleWith(color: currentColor, position: position, size: currentSize)
     
 }
 
 
-
-//let view = CanvasView()
-
-
 //#-hidden-code
 
-didUpdatePitch(with: 1231293298988.44)
+didUpdatePitch(with: factor)
 handleTouch(at: initialPosition)
 
 //#-end-hidden-code
