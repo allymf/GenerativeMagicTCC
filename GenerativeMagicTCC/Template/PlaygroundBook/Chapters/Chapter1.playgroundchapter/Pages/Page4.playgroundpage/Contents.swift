@@ -117,7 +117,9 @@ func handleTouch(at position: Position) {
     
 }
 
-
+/*:#localized(key: "endAudio")
+  [Next: Conclusion](@next)
+*/
 //#-hidden-code
 
 didUpdatePitch(with: factor)
