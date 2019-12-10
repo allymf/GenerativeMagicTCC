@@ -41,7 +41,7 @@ public class AudioCanvasViewController: UIViewController, PlaygroundLiveViewSafe
 //    let maximumConstant: CGFloat =
 //    var initialColor: UIColor =
 //    var highestColor: UIColor =
-    public var setting = AudioInteractionSettings(minimumSize: 30.0, maximumSize: 80.0, initialColor: #colorLiteral(red: 0.9290261865, green: 0.8611106277, blue: 0, alpha: 0.5), highestColor: #colorLiteral(red: 0.264562726, green: 0.1883445978, blue: 1, alpha: 0.5))
+    public var setting = AudioInteractionSettings(minimumSize: 30.0, maximumSize: 80.0, initialColor: #colorLiteral(red: 0.9290261865, green: 0.8611106277, blue: 0, alpha: 0), highestColor: #colorLiteral(red: 0.264562726, green: 0.1883445978, blue: 1, alpha: 0))
     
     
     override public func viewDidLoad() {

@@ -46,7 +46,7 @@ let minimumSize: Double = /*#-editable-code*/<#T##Minimum circle size##Double#>/
 let maximumSize: Double = /*#-editable-code*/<#T##Maximum circle size##Double#>/*#-end-editable-code*/
 
 
-let initialColor: Color = /*#-editable-code Base color*/#colorLiteral(red: 0.9290261865, green: 0.8611106277, blue: 0, alpha: 0.5)/*#-end-editable-code*/
+let initialColor: Color = /*#-editable-code Base color*/#colorLiteral(red: 0.9290261865, green: 0.8611106277, blue: 0, alpha: 0.4901808647)/*#-end-editable-code*/
 let highestColor: Color = /*#-editable-code Top color*/#colorLiteral(red: 0.264562726, green: 0.1883445978, blue: 1, alpha: 0.5)/*#-end-editable-code*/
 
 
