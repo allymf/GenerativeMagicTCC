@@ -6,6 +6,7 @@
   
 */
 
+// CanvasView
 "Select an Image" = "Selecione uma imagem";
 
 "Now Run your code" = "Agora Execute Seu Código";
@@ -20,7 +21,13 @@
 
 "Saved Photos" = "Fotos Salvas";
 
+// AudioCanvas
+"btPlay" = "Tocar";
+"btPause" = "Pausar";
+"btUndo" = "Desfazer";
+"btClear" = "Limpar";
 
+// Assessments and Hints
 "PassI1" = "Bom trabalho! Você digitou o código apropriado para criar a peça. Se a peça não apareceu, tente selecionar uma imagem.
 Nós vamos expandir nesses conceitos na [próxima página](@next).";
 

@@ -17,19 +17,22 @@ public class AudioCanvasViewController: UIViewController, PlaygroundLiveViewSafe
     // Views
     public lazy var playButton: UIButton = {
         let button = UIButton(type: UIButton.ButtonType.system)
-        button.setTitle("Play", for: .normal)
+        let title = NSLocalizedString("btPlay", comment: "I Tried")
+        button.setTitle(title, for: .normal)
         return button
     }()
     
     public lazy var undoButton: UIButton = {
         let button = UIButton(type: UIButton.ButtonType.system)
-        button.setTitle("Undo", for: .normal)
+        let title = NSLocalizedString("btUndo", comment: "I Tried")
+        button.setTitle(title, for: .normal)
         return button
     }()
     
     public lazy var clearButton: UIButton = {
         let button = UIButton(type: UIButton.ButtonType.system)
-        button.setTitle("Clear", for: .normal)
+        let title = NSLocalizedString("btClear", comment: "I Tried")
+        button.setTitle(title, for: .normal)
         return button
     }()
     
@@ -79,9 +82,11 @@ public class AudioCanvasViewController: UIViewController, PlaygroundLiveViewSafe
 
     @objc public func tapped(_ sender: Any) {
         if !manager.player.isPlaying {
-            self.playButton.setTitle("Pause", for: .normal)
+            let title = NSLocalizedString("btPause", comment: "I Tried")
+            self.playButton.setTitle(title, for: .normal)
         } else {
-            self.playButton.setTitle("Play", for: .normal)
+            let title = NSLocalizedString("btPlay", comment: "I Tried")
+            self.playButton.setTitle(title, for: .normal)
         }
 
         manager.play()
