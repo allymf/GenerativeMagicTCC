@@ -37,7 +37,7 @@ func getIntermediateColor(from firstColor: Color, to secondColor: Color, by fact
 //#-code-completion(everything, hide)
 //#-code-completion(identifier, show, drawCircleWith(color:position:size:), getIntermediateColor(from:to:by:), initialColor, highestColor, minimumSize, maximumSize, currentSize, currentColor, position, value)
 //#-code-completion(description, show, "drawCircleWith(color: Color, position: Position,size: Double)", "getIntermediateColor(from: Color, to: Color, by: Double)")
-/*:#localized(key: "conclusion")
+/*:#localized(key: "intro")
  Diferentiated Audio
  */
 
@@ -49,13 +49,20 @@ let maximumSize: Double = /*#-editable-code*/<#T##Maximum circle size##Double#>/
 let initialColor: Color = /*#-editable-code Base color*/#colorLiteral(red: 0.9290261865, green: 0.8611106277, blue: 0, alpha: 0.4901808647)/*#-end-editable-code*/
 let highestColor: Color = /*#-editable-code Top color*/#colorLiteral(red: 0.264562726, green: 0.1883445978, blue: 1, alpha: 0.5)/*#-end-editable-code*/
 
+/*:#localized(key: "vars")
+ Diferentiated Audio
+ */
 
 var currentSize: Double = minimumSize
 var currentColor: Color = initialColor
 
+/*:#localized(key: "didUpdate")
+Diferentiated Audio
+*/
+
 func didUpdatePitch(with value: Double) {
     
-    currentSize = /*#-editable-code*/<#code#>/*#-end-editable-code*/
+    currentSize = minimumSize + (/*#-editable-code*/<#code#>/*#-end-editable-code*/)
     currentColor = /*#-editable-code*/<#code#>/*#-end-editable-code*/
     
 }
@@ -111,13 +118,17 @@ func drawCircleWith(color: Color, position: Position, size: Double) {
 }
 //#-end-hidden-code
 
+/*:#localized(key: "handle")
+ Diferentiated Audio
+ */
+
 func handleTouch(at position: Position) {
     
     /*#-editable-code*/<#code#>/*#-end-editable-code*/
     
 }
 
-/*:#localized(key: "endAudio")
+/*:#localized(key: "end")
   [Next: Conclusion](@next)
 */
 //#-hidden-code
