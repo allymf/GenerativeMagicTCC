@@ -73,7 +73,7 @@ func assessStatusFor(_ color: Color, _ position: Position, _ size: Double) -> Bo
     if functionCalled {
         
         if color == currentColor && position == initialPosition && size > 0 &&
-            color == getIntermediateColor(from: initialColor, to: highestColor, by: factor) && size == currentSize {
+            color == getIntermediateColor(from: initialColor, to: highestColor, by: factor) && size == currentSize && size == (minimumSize+(maximumSize*factor)) {
             
             let passMessage = NSLocalizedString("PassI1", comment: "I Tried")
             
