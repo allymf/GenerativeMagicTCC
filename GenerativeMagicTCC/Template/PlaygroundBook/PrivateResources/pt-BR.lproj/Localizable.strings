@@ -48,3 +48,10 @@ Nós vamos expandir nesses conceitos na [próxima página](@next).";
 "Hint4I2" = "Também é importante que a variável  **fontType** tenha um valor válido (chalk, futura ou noteworthy).";
 
 "HintGI2" = "Lembre de usar a função `displayNextCharacterIn`";
+
+"PassI3" = "Excelente, você digitou os códigos necessários e eles serão chamados assim que você interagir com o botão *Tocar*. Depois é só pintar a vontade.";
+
+"Hint1I3" = "Use o parâmetro `value` para obter uma fração de `maximumSize`";
+"Hint2I3" = "Lembre-se de usar a função `getIntermediateColor` para interpolar as duas cores";
+"Hint3I3" = "Atente para os valores passados na função `drawCircleWith`";
+

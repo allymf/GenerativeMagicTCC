@@ -75,17 +75,18 @@ func assessStatusFor(_ color: Color, _ position: Position, _ size: Double) -> Bo
         if color == currentColor && position == initialPosition && size > 0 &&
             color == getIntermediateColor(from: initialColor, to: highestColor, by: factor) && size == currentSize && size == (minimumSize+(maximumSize*factor)) {
             
-            let passMessage = NSLocalizedString("PassI1", comment: "I Tried")
+            let passMessage = NSLocalizedString("PassI3", comment: "I Tried")
             
             PlaygroundPage.current.assessmentStatus = .pass(message: passMessage)
             return true
             
         } else {
             
-            let hint1 = NSLocalizedString("Hint1I1", comment: "I Tried")
-            let hint2 = NSLocalizedString("Hint2I1", comment: "I Tried")
+            let hint1 = NSLocalizedString("Hint1I3", comment: "I Tried")
+            let hint2 = NSLocalizedString("Hint2I3", comment: "I Tried")
+            let hint3 = NSLocalizedString("Hint3I3", comment: "I Tried")
             
-            let hints = [hint1, hint2]
+            let hints = [hint1, hint2, hint3]
             
             PlaygroundPage.current.assessmentStatus = .fail(hints: hints, solution: nil)
             return false
@@ -96,9 +97,12 @@ func assessStatusFor(_ color: Color, _ position: Position, _ size: Double) -> Bo
         
     } else {
         
-        let hint = NSLocalizedString("HintGI1", comment: "I Tried")
+        let hint1 = NSLocalizedString("Hint1I3", comment: "I Tried")
+        let hint2 = NSLocalizedString("Hint2I3", comment: "I Tried")
+        let hint3 = NSLocalizedString("Hint3I3", comment: "I Tried")
         
-        PlaygroundPage.current.assessmentStatus = .fail(hints: [hint], solution: nil)
+        let hints = [hint1, hint2, hint3]
+        PlaygroundPage.current.assessmentStatus = .fail(hints: hints, solution: nil)
         return false
     }
     
