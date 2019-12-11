@@ -38,7 +38,18 @@ func getIntermediateColor(from firstColor: Color, to secondColor: Color, by fact
 //#-code-completion(identifier, show, drawCircleWith(color:position:size:), getIntermediateColor(from:to:by:), initialColor, highestColor, minimumSize, maximumSize, currentSize, currentColor, position, value)
 //#-code-completion(description, show, "drawCircleWith(color: Color, position: Position,size: Double)", "getIntermediateColor(from: Color, to: Color, by: Double)")
 /*:#localized(key: "intro")
- Diferentiated Audio
+ Sound can be another great source of data to be used artistical interventions. In an audio file all its music characteristics are represented by data and it's possible to analyse it. Therefore, being possible to create a visualization to this data using shapes, colors and much more.🔊
+ 
+ On this very interaction you will do exactly that, bit with a twist: essa visualização muda também conforme você interage. 😎
+ 
+ 
+ ### Hands on:
+ 
+ The screen beside has a black bordered "canvas" which you can use to draw using circles. However, for that to be possible it's necessary that you program some functions. Making the drawn circles on the canvas have their size and color affected by the music pitch. 🎶
+ 
+ When you tap the **Play** button, a song starts and its current pitch (high or low) is identified and passed to the `didUpdatePitch` function through `value` parameter. It goes from 0.0 tom 1.0. Also, when you touch the black bordered canvas the `handleTouch` function is called an the touch `position` is passed as a parameter.
+ 
+ Right below, there are constants that you need to define the values with the minimum and maximum values for size and color that you wish the circles to have.
  */
 
 
@@ -50,14 +61,16 @@ let initialColor: Color = /*#-editable-code Base color*/#colorLiteral(red: 0.929
 let highestColor: Color = /*#-editable-code Top color*/#colorLiteral(red: 0.264562726, green: 0.1883445978, blue: 1, alpha: 0.5)/*#-end-editable-code*/
 
 /*:#localized(key: "vars")
- Diferentiated Audio
+ Right after that, two variables are created to store the different values that'll be computed at every pitch change.
  */
 
 var currentSize: Double = minimumSize
 var currentColor: Color = initialColor
 
 /*:#localized(key: "didUpdate")
-Diferentiated Audio
+ Now begins the fun part, you're going to implement the changes to `currentSize` and `currentColor` inside the `didUpdatePitch` function, because they'll be used later on.
+ 
+ The values must be based on the passed attribute `value`. The variable `currentSize` has to go from `minimumSize` up to `minimumSize` + `maximumSize` at maximum. The `currentColor` must interpolate between the two colors that you defined, but don't be afraid, you just need to use the `getIntermediateColor` function. Remember to pass the initial color as the first parameter.
 */
 
 func didUpdatePitch(with value: Double) {
@@ -123,7 +136,7 @@ func drawCircleWith(color: Color, position: Position, size: Double) {
 //#-end-hidden-code
 
 /*:#localized(key: "handle")
- Diferentiated Audio
+Do you remember the `drawCircleWith` function from the first interaction? We're going to use it again inside the `handleTouch` function. Remember to use the variables with the current values to get the desired result.
  */
 
 func handleTouch(at position: Position) {
@@ -133,6 +146,10 @@ func handleTouch(at position: Position) {
 }
 
 /*:#localized(key: "end")
+ When it's all ready tap the **Run My Code** button, after that tap **Play** to start the music and its analysis. Unleash your creativity touching and swipping in the black bordered canvas.
+ 
+ You can change the `minimumSize`, `maximumSize`,  `initialColor`, `highestColor` values and tap **Run My Code** again to test new possibilities without losing your previous strokes.🎨🖌
+ 
   [Next: Conclusion](@next)
 */
 //#-hidden-code
