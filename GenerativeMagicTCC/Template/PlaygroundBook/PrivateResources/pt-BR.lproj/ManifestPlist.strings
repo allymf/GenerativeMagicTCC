@@ -12,8 +12,8 @@
 "ChapterOneName" = "Generative Magic";
 
 /* The localized name of the first page in the first chapter in the playground book. */
-"ChapterOnePageOneName" = "Introduction";
-"ChapterOnePageTwoName" = "Image Processing";
+"ChapterOnePageOneName" = "Introdução";
+"ChapterOnePageTwoName" = "Processamento de Imagens";
 "ChapterOnePageThreeName" = "ASCII Art";
-"ChapterOnePageFourName" = "Audio Processing";
-"ChapterOnePageFiveName" = "Conclusion";
+"ChapterOnePageFourName" = "Processamento de Áudio";
+"ChapterOnePageFiveName" = "Conclusão";

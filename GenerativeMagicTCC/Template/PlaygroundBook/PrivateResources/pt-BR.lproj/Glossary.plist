@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>generative art</key>
+		<dict>
+			<key>Title</key>
+			<string>Arte Generativa</string>
+			<key>Definition</key>
+			<string>Arte criada por um sistema autônomo (geralmente um programa de computador). Pode ser aleatório ou completamente determinístico e imperativo.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>Title</key>
+				<string>Introduction</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page1</string>
+			</dict>
+		</dict>
+		<key>playground</key>
+		<dict>
+			<key>Title</key>
+			<string>Playground Book</string>
+			<key>Definition</key>
+			<string>Um livro interativo, que roda no aplicativo Swift Playground, que permite escrever e rodar código Swift dentro dele.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>Title</key>
+				<string>Introduction</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page1</string>
+			</dict>
+		</dict>
+		<key>glitch art</key>
+		<dict>
+			<key>Title</key>
+			<string>Glitch Art</string>
+			<key>Definition</key>
+			<string>Uma forma de expressão artística que explora a estética de dados corrompidos em ambientes digitais ou analógicos.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>Title</key>
+				<string>Image Processing</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page2</string>
+			</dict>
+		</dict>
+		<key>pixel</key>
+		<dict>
+			<key>Title</key>
+			<string>Pixel</string>
+			<key>Definition</key>
+			<string>Geralmente referido como o menor elemento de uma imagem ou tela, ao qual é atribuído uma cor. Contração das palavras **Pic**ture e **el**ement. </string>
+			<key>FirstUse</key>
+			<dict>
+				<key>Title</key>
+				<string>Image Processing</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page2</string>
+			</dict>
+		</dict>
+		<key>for</key>
+		<dict>
+			<key>Title</key>
+			<string>Loop &quot;For&quot;</string>
+			<key>Definition</key>
+			<string>É um recurso programático que descreve um loop, que executa o bloco de código contido nele até que a sua condição seja satisfeita. Um Loop “For&quot; que itera um array inteiro só irá para quando iterar o último elemento do mesmo.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>Title</key>
+				<string>Image Processing</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page2</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>Title</key>
+			<string>Array</string>
+			<key>Definition</key>
+			<string>Uma estrutura de dados que consiste numa coleção de elementos com mesmo tipo de dado. É acessado por índice, geralmente começando de 0.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>Title</key>
+				<string>Image Processing</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page2</string>
+			</dict>
+		</dict>
+		<key>type</key>
+		<dict>
+			<key>Title</key>
+			<string>Tipo</string>
+			<key>Definition</key>
+			<string>Um símbolo que compartilha características de design dentro de um conjunto (fonte). Pode representar uma letra, número ou qualquer outro caractere especial.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>Title</key>
+				<string>ASCII Art</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page3</string>
+			</dict>
+		</dict>
+		<key>lettering</key>
+		<dict>
+			<key>Title</key>
+			<string>Lettering</string>
+			<key>Definition</key>
+			<string>Peças contendo ou simulando letras escritas a mão. Remonta ao trabalho das pessoas que copiavam livros a mão, antes das impressoras existirem. Geralmente apresenta letras altamente decoradas e estilizadas.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>Title</key>
+				<string>ASCII Art</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page3</string>
+			</dict>
+		</dict>
+		<key>routine</key>
+		<dict>
+			<key>Title</key>
+			<string>Rotina</string>
+			<key>Definition</key>
+			<string>Conjunto de instruções que executam uma determinada tarefa. Podem ser chamadas sempre que essa tarefa deve ser executada. Geralmente são criadas para isolar código que é usado várias vezes.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>Title</key>
+				<string>ASCII Art</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page3</string>
+			</dict>
+		</dict>
+		<key>ascii art</key>
+		<dict>
+			<key>Title</key>
+			<string>ASCII Art</string>
+			<key>Definition</key>
+			<string>Uma forma de expressão artistica que usa os caracteres e simbolos do **A**merican **S**tandard **C**ode for **I**nformation **I**nterchange (ASCII) pra criar peças gráficas.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>Title</key>
+				<string>ASCII Art</string>
+				<key>PageReference</key>
+				<string>Chapter1/Page3</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

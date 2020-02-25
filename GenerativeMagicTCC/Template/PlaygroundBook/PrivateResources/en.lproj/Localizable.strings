@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  PlaygroundBook
+
+  Created by Alysson Moreira on 12/08/19.
+  
+*/
+
+// CanvasView
+"Select an Image" = "Select an image";
+
+"Now Run your code" = "Now Run Your Code";
+
+"Pick an image" = "Pick an image";
+
+"Select the source of the photo" = "Select the source of the photo";
+
+"Camera" = "Camera";
+
+"Library" = "Library";
+
+"Saved Photos" = "Saved Photos";
+
+// AudioCanvas
+"btPlay" = "Play";
+"btPause" = "Pause";
+"btUndo" = "Undo";
+"btClear" = "Clear";
+
+// Assessments and Hints
+"PassI1" = "Great job! You typed the appropriate code to create the piece. If the piece didn’t appear, try selecting an image.
+We’re going to expand on this concepts on the [next page](@next).";
+
+"Hint1I1" = "Remember to call either `drawCircleWith` or `drawSquareWith`, and also pass it the pixel’s *color* and *position*";
+
+"Hint2I1" = "Also mind the size value passed to the function.";
+
+"HintGI1" = "Use one of the previously said shape functions and pass it the two variable inside the for in loop. Don't forget to pick an image";
+
+"PassI2" = "Way to go! You can play around with the font type, font size and also the text to get different results. If the piece didn't appear, try selecting an image.";
+
+"Hint1I2" = "Remember to use a non empty text value.";
+
+"Hint2I2" = "Also remember to pass on the pixel’s **color** and **position**.";
+
+"Hint3I2" = "Do mind the the value given to the **fontSize** parameter.";
+
+"Hint4I2" = "It’s also important that the variable **fontType** has a valid value (chalk, futura or noteworthy)";
+
+"HintGI2" = "Remember to use the `displayNextCharacterIn` function";
+
+"PassI3" = "Excelent, you typed the right code and it'll be called right when you tap the *Play* button. After that it's all about painting.";
+
+"Hint1I3" = "Use the `value` parameter to retrieve a fraction of `maximumSize`";
+"Hint2I3" = "Remember to use the `getIntermediateColor` function to interpolate between the two colors";
+"Hint3I3" = "Do mind the values passed on to the `drawCircleWith` function";

@@ -1,0 +1,38 @@
+
+"intro" = "Som pode ser outra fonte muito rica de dados para serem usados em intervenções artísticas. Em um arquivo de áudio todas características da música são representadas por dados e é possível analisá-los. Sendo possível, criar uma visualização para esses dados usando formas, cores e muito mais.🔊
+
+Nessa interação você vai fazer exatamente isso, só que com uma diferença: essa visualização muda também conforme você interage. 😎
+
+
+### Mão na massa:
+
+A tela ao lado possui um \"quadro\" com borda preta onde você poderá desenhar usando círculos. Porém para que isso seja possível é necessário que você programe algumas funções. Fazendo com que círculos pintados na tela a direita mudem de tamanho e cor conforme o tom da música. 🎶
+
+Ao interagir com o botão **Tocar**, uma música se inicia e o tom atual (agudo ou grave) é identificado e passado para a função `didUpdatePitch` pelo parâmetro `value`. Esse valor vai de 0.0 à 1.0. E ao tocar no quadro com bordas pretas a função `handleTouch` é chamada e é passado a posição do toque pelo parâmetro `position`
+
+A seguir há algumas constantes que você deve definir com os valores mínimos e máximos de tamanho(`minimumSize` e `maximumSize`) e cor(`initialColor` e `highestColor`) que você deseja que os círculos tenham.
+
+";
+
+"vars" = "
+Logo após são criadas duas variáveis que vão armazenar as diferentes valores que serão computados a cada mudança de tom.
+";
+
+"didUpdate" = "
+Agora começa a parte divertida, você vai implementar dentro de `didUpdatePitch` as mudanças nas variáveis `currentSize` e `currentColor`, pois mais adiantes elas serão usadas.
+
+Os valores devem se basear no atributo `value` que a função recebe. A variável `currentSize` deve ir do valor de `minimumSize` até `minimumSize` + `maximumSize`. A `currentColor` deve interpolar entres as duas cores que você definiu, mas não se assuste, é só você usar a função `getIntermediateColor`. Lembre-se de passar primeiro a cor inicial.
+";
+
+"handle" = "
+Lembra da função `drawCircleWith` da primeira interação? Nós vamos usá-la de novo dentro da função `handleTouch`. Lembre-se de usar as variáveis com os valores previamente calculados para ter o resultado desejado.
+";
+
+"end" = "
+
+Quando tudo estiver pronto toque em **Executar Meu Código**, e após no botão **Tocar** para iniciar a música e sua análise. Solte sua criatividade tocando e deslizando no quadro com bordas pretas.
+
+Você pode mudar os valores `minimumSize`, `maximumSize`,  `initialColor`, `highestColor`  e tocar novamente em **Executar Meu Código** e testar novas possibilidades sem perder as suas pinceladas anteriores.🎨🖌
+
+ [Próxima: Conclusão](@next)
+";

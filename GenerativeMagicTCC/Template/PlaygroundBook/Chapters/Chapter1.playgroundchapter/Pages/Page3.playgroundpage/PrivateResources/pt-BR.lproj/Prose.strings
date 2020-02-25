@@ -1,0 +1,30 @@
+
+
+"block1" = "Durante o período em que máquinas de datilografar eram o padrão, algumas pessoas faziam desenhos usando [tipos](glossary://type). Esse tipo de expressão evoluiu quando os computadores foram introduzidos e junto com eles vários modelos de caracteres.
+
+Devido às limitações dos computadores em determinada época, que eram capazes de mostrar textos de maneira fácil e rápida, mas não podiam fazer o mesmo com gráficos mais complexos. As pessoas usavam texto para criar gráficos e diferentes tipos de [lettering](glossary://lettering).
+
+Aqui está um pequeno exemplo:
+
+![Uma Imagem de um lettering no estilo ASCII Art, escrito SMD](smd.png \"Uma Imagem de um lettering no estilo ASCII Art, escrito SMD\")
+
+## Mão na massa:
+
+Eu espero que você se lembre da [rotina](glossary://routine) de **Processamento de Imagem**, porque nós vamos usá-la de novo para criar uma intervenção [ASCII Art](glossary://ascii%20art) em uma imagem.
+
+O código será bem similar, mas ao invés de desenhar uma forma, nós vamos escrever uma **letra** na posição do pixel (**position**) e usando sua cor (**color**).
+
+Então, vamos configurar o texto que vai compor a obra de arte:
+
+Você pode Mudar o texto a ser escrito mudando o valor da variável **text**, o mesmo para a fonte usando a variável **font** e seu tamanho mudando **size**.
+";
+
+"block2" = "* callout(Dica):
+Você pode criar uma ASCII art da sua foto usando seu nome, não há nada mais pessoal que isso. 😉
+
+
+O Laço de repetição for in está abaixo. Bem familiar, não é? Mas agora nós vamos usar uma função chamada `displayNextCharacterIn`";
+
+"block3" = "Se sentindo orgulhoso da sua criação? Toque o botão de três pontos e então toque em **Tirar Foto**, então você pode imprimir, emoldurar e colocar na sua parede. 😎
+
+[Próxima: Processamento de Áudio](@next)";

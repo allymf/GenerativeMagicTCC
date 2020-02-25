@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0993F822FA4FA800B1F99A /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0993F422FA4FA700B1F99A /* me.png */; };
+		3F0993F922FA4FA800B1F99A /* ImgFilterShowcase.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0993F522FA4FA800B1F99A /* ImgFilterShowcase.png */; };
+		3F0993FA22FA4FA800B1F99A /* Cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0993F622FA4FA800B1F99A /* Cover.png */; };
+		3F0993FC22FA569C00B1F99A /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0993FB22FA569C00B1F99A /* IntroViewController.swift */; };
+		3F09940A22FA5EFF00B1F99A /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940822FA5CC400B1F99A /* CanvasViewController.swift */; };
+		3F09940B22FA5FB800B1F99A /* CanvasSKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940422FA5CC400B1F99A /* CanvasSKScene.swift */; };
+		3F09940C22FA5FE400B1F99A /* UIColor+InitFromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0993FE22FA5CC400B1F99A /* UIColor+InitFromHex.swift */; };
+		3F09940D22FA5FF600B1F99A /* CanvasSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940022FA5CC400B1F99A /* CanvasSettings.swift */; };
+		3F09940E22FA5FFA00B1F99A /* CanvasDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940622FA5CC400B1F99A /* CanvasDelegate.swift */; };
+		3F09940F22FA5FFC00B1F99A /* DrawMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0993FF22FA5CC400B1F99A /* DrawMode.swift */; };
+		3F09941022FA5FFE00B1F99A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940722FA5CC400B1F99A /* Font.swift */; };
+		3F09941122FA600000B1F99A /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940222FA5CC400B1F99A /* Pixel.swift */; };
+		3F09941222FA600400B1F99A /* PresentationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940122FA5CC400B1F99A /* PresentationDataSource.swift */; };
+		3F09941322FA601800B1F99A /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940522FA5CC400B1F99A /* PresentationViewController.swift */; };
+		3F09941422FA601A00B1F99A /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940322FA5CC400B1F99A /* ShapeType.swift */; };
+		3F09941522FA602A00B1F99A /* UIImage+ScaleToSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940922FA5CC400B1F99A /* UIImage+ScaleToSize.swift */; };
+		3F1DB1492302588700BD1CD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1DB14B2302588700BD1CD5 /* Localizable.strings */; };
+		3F28436123758FDA008B970F /* smd.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F28436023758FDA008B970F /* smd.png */; };
+		3F39678023822C8000C6B4E1 /* ukulele.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F39677F23822C8000C6B4E1 /* ukulele.mp3 */; };
+		3F39678423823E1F00C6B4E1 /* AudioInteractionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39678323823E1F00C6B4E1 /* AudioInteractionSettings.swift */; };
+		3FD4216D234263B1009329E1 /* Glossary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4216B234263B1009329E1 /* Glossary.plist */; };
 		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
 		5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */; };
@@ -90,7 +111,38 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundBook.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0993F422FA4FA700B1F99A /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		3F0993F522FA4FA800B1F99A /* ImgFilterShowcase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImgFilterShowcase.png; sourceTree = "<group>"; };
+		3F0993F622FA4FA800B1F99A /* Cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cover.png; sourceTree = "<group>"; };
+		3F0993FB22FA569C00B1F99A /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		3F0993FE22FA5CC400B1F99A /* UIColor+InitFromHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+InitFromHex.swift"; sourceTree = "<group>"; };
+		3F0993FF22FA5CC400B1F99A /* DrawMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawMode.swift; sourceTree = "<group>"; };
+		3F09940022FA5CC400B1F99A /* CanvasSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasSettings.swift; sourceTree = "<group>"; };
+		3F09940122FA5CC400B1F99A /* PresentationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationDataSource.swift; sourceTree = "<group>"; };
+		3F09940222FA5CC400B1F99A /* Pixel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pixel.swift; sourceTree = "<group>"; };
+		3F09940322FA5CC400B1F99A /* ShapeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
+		3F09940422FA5CC400B1F99A /* CanvasSKScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasSKScene.swift; sourceTree = "<group>"; };
+		3F09940522FA5CC400B1F99A /* PresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
+		3F09940622FA5CC400B1F99A /* CanvasDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasDelegate.swift; sourceTree = "<group>"; };
+		3F09940722FA5CC400B1F99A /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		3F09940822FA5CC400B1F99A /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		3F09940922FA5CC400B1F99A /* UIImage+ScaleToSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ScaleToSize.swift"; sourceTree = "<group>"; };
+		3F09941622FA70F700B1F99A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LiveView.strings"; sourceTree = "<group>"; };
+		3F09941722FA70F700B1F99A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LiveViewTestAppLaunchScreen.strings"; sourceTree = "<group>"; };
+		3F09941822FA70F800B1F99A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/ManifestPlist.strings"; sourceTree = "<group>"; };
+		3F1DB14A2302588700BD1CD5 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3F1DB14C2302589400BD1CD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3F28436023758FDA008B970F /* smd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smd.png; sourceTree = "<group>"; };
+		3F39677A23820CB300C6B4E1 /* UIColor+Interpolate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Interpolate.swift"; sourceTree = "<group>"; };
+		3F39677B23820E5600C6B4E1 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		3F39677C2382106D00C6B4E1 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		3F39677D2382144900C6B4E1 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		3F39677E2382191800C6B4E1 /* AudioCanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioCanvasViewController.swift; sourceTree = "<group>"; };
+		3F39677F23822C8000C6B4E1 /* ukulele.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ukulele.mp3; sourceTree = "<group>"; };
+		3F39678323823E1F00C6B4E1 /* AudioInteractionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioInteractionSettings.swift; sourceTree = "<group>"; };
+		3FD4216C234263B1009329E1 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "pt-BR"; path = "pt-BR.lproj/Glossary.plist"; sourceTree = "<group>"; };
+		3FD4216E234263CC009329E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Glossary.plist; sourceTree = "<group>"; };
+		5E086DC02051C5A7004D8D25 /* Generative Magic.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Generative Magic.playgroundbook"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
 		5E086DCF2051DF0F004D8D25 /* Manifest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Manifest.plist; sourceTree = "<group>"; };
@@ -135,7 +187,7 @@
 		5E086DA4204F706E004D8D25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */,
+				5E086DC02051C5A7004D8D25 /* Generative Magic.playgroundbook */,
 				5EF2F9AB2054BBF300191409 /* libBook_Sources.a */,
 				5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */,
 			);
@@ -241,8 +293,15 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				3F39677F23822C8000C6B4E1 /* ukulele.mp3 */,
+				3FD4216B234263B1009329E1 /* Glossary.plist */,
+				3F0993F622FA4FA800B1F99A /* Cover.png */,
+				3F0993F522FA4FA800B1F99A /* ImgFilterShowcase.png */,
+				3F0993F422FA4FA700B1F99A /* me.png */,
+				3F28436023758FDA008B970F /* smd.png */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
+				3F1DB14B2302588700BD1CD5 /* Localizable.strings */,
 			);
 			path = PrivateResources;
 			sourceTree = "<group>";
@@ -250,8 +309,27 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3F39677E2382191800C6B4E1 /* AudioCanvasViewController.swift */,
+				3F39677D2382144900C6B4E1 /* AudioManager.swift */,
+				3F39677C2382106D00C6B4E1 /* Circle.swift */,
+				3F39677B23820E5600C6B4E1 /* CanvasView.swift */,
+				3F39677A23820CB300C6B4E1 /* UIColor+Interpolate.swift */,
+				3F09940322FA5CC400B1F99A /* ShapeType.swift */,
+				3F09940922FA5CC400B1F99A /* UIImage+ScaleToSize.swift */,
+				3F09940522FA5CC400B1F99A /* PresentationViewController.swift */,
 				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
+				3F09940122FA5CC400B1F99A /* PresentationDataSource.swift */,
+				3F09940222FA5CC400B1F99A /* Pixel.swift */,
+				3F09940722FA5CC400B1F99A /* Font.swift */,
+				3F0993FF22FA5CC400B1F99A /* DrawMode.swift */,
+				3F09940622FA5CC400B1F99A /* CanvasDelegate.swift */,
+				3F09940822FA5CC400B1F99A /* CanvasViewController.swift */,
+				3F09940422FA5CC400B1F99A /* CanvasSKScene.swift */,
+				3F09940022FA5CC400B1F99A /* CanvasSettings.swift */,
+				3F0993FE22FA5CC400B1F99A /* UIColor+InitFromHex.swift */,
 				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
+				3F0993FB22FA569C00B1F99A /* IntroViewController.swift */,
+				3F39678323823E1F00C6B4E1 /* AudioInteractionSettings.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -282,7 +360,7 @@
 			);
 			name = PlaygroundBook;
 			productName = PlaygroundBook;
-			productReference = 5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */;
+			productReference = 5E086DC02051C5A7004D8D25 /* Generative Magic.playgroundbook */;
 			productType = "com.apple.product-type.bundle";
 		};
 		5EA2E3BC2056F35A00416A35 /* LiveViewTestApp */ = {
@@ -333,6 +411,7 @@
 				TargetAttributes = {
 					5E086DBF2051C5A7004D8D25 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1020;
 					};
 					5EA2E3BC2056F35A00416A35 = {
 						CreatedOnToolsVersion = 9.3;
@@ -351,6 +430,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 5E2A7ADC204F611300F4E17A;
 			productRefGroup = 5E086DA4204F706E004D8D25 /* Products */;
@@ -369,8 +449,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0993FA22FA4FA800B1F99A /* Cover.png in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
+				3F1DB1492302588700BD1CD5 /* Localizable.strings in Resources */,
+				3FD4216D234263B1009329E1 /* Glossary.plist in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
+				3F39678023822C8000C6B4E1 /* ukulele.mp3 in Resources */,
+				3F0993F822FA4FA800B1F99A /* me.png in Resources */,
+				3F28436123758FDA008B970F /* smd.png in Resources */,
+				3F0993F922FA4FA800B1F99A /* ImgFilterShowcase.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +503,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F09940B22FA5FB800B1F99A /* CanvasSKScene.swift in Sources */,
+				3F09940A22FA5EFF00B1F99A /* CanvasViewController.swift in Sources */,
+				3F09941022FA5FFE00B1F99A /* Font.swift in Sources */,
+				3F0993FC22FA569C00B1F99A /* IntroViewController.swift in Sources */,
+				3F09940D22FA5FF600B1F99A /* CanvasSettings.swift in Sources */,
+				3F09941422FA601A00B1F99A /* ShapeType.swift in Sources */,
+				3F09941522FA602A00B1F99A /* UIImage+ScaleToSize.swift in Sources */,
+				3F09941122FA600000B1F99A /* Pixel.swift in Sources */,
+				3F09941322FA601800B1F99A /* PresentationViewController.swift in Sources */,
+				3F09941222FA600400B1F99A /* PresentationDataSource.swift in Sources */,
+				3F09940C22FA5FE400B1F99A /* UIColor+InitFromHex.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
+				3F39678423823E1F00C6B4E1 /* AudioInteractionSettings.swift in Sources */,
+				3F09940F22FA5FFC00B1F99A /* DrawMode.swift in Sources */,
+				3F09940E22FA5FFA00B1F99A /* CanvasDelegate.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,10 +543,29 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3F1DB14B2302588700BD1CD5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1DB14A2302588700BD1CD5 /* pt-BR */,
+				3F1DB14C2302589400BD1CD5 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		3FD4216B234263B1009329E1 /* Glossary.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD4216C234263B1009329E1 /* pt-BR */,
+				3FD4216E234263CC009329E1 /* en */,
+			);
+			name = Glossary.plist;
+			sourceTree = "<group>";
+		};
 		5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5E086DCD2051DDB8004D8D25 /* Base */,
+				3F09941622FA70F700B1F99A /* pt-BR */,
 			);
 			name = LiveView.storyboard;
 			sourceTree = "<group>";
@@ -454,6 +574,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5EA2E3C92056F35B00416A35 /* Base */,
+				3F09941722FA70F700B1F99A /* pt-BR */,
 			);
 			name = LiveViewTestAppLaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -462,6 +583,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5EF2F97D2054B6E400191409 /* en */,
+				3F09941822FA70F800B1F99A /* pt-BR */,
 			);
 			name = ManifestPlist.strings;
 			sourceTree = "<group>";
@@ -473,13 +595,21 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.0;
 				GCC_DYNAMIC_NO_PIC = NO;
 				INSTALL_PATH = /;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PLAYGROUND_BOOK_CONTENT_IDENTIFIER)";
 				PRODUCT_NAME = "$(PLAYGROUND_BOOK_FILE_NAME)";
 				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -487,12 +617,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.0;
 				INSTALL_PATH = /;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PLAYGROUND_BOOK_CONTENT_IDENTIFIER)";
 				PRODUCT_NAME = "$(PLAYGROUND_BOOK_FILE_NAME)";
 				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -501,6 +638,7 @@
 			baseConfigurationReference = 5E0E37522065981C008FA4BE /* BuildSettings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -561,6 +699,7 @@
 			baseConfigurationReference = 5E0E37522065981C008FA4BE /* BuildSettings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
