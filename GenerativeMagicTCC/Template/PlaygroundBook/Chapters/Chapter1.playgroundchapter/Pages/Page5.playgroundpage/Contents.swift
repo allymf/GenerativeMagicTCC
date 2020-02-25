@@ -31,6 +31,10 @@
  
 [Royalty Free Music from Bensound](https://www.bensound.com/)
  
+ Audio analysis code based on the code from the [Ray Wenderlich Tutorial](https://www.raywenderlich.com/5154-avaudioengine-tutorial-for-ios-getting-started)
+ 
+ Canvas code based on the [Let's build that app Tutorial](https://www.letsbuildthatapp.com/course_video?id=4572)
+ 
  
  */
 
