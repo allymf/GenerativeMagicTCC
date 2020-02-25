@@ -132,6 +132,6 @@ for pixel in pixels {
  
  Feel proud of your creation? Tap the three dots button and then tap Take Picture, so you can print it and put it on the fridge. 😎
  
- [Next: Conclusion](@next)
+ [Next: Audio Processing](@next)
  
  */

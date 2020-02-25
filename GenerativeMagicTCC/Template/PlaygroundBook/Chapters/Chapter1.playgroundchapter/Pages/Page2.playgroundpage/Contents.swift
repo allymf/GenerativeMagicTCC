@@ -52,7 +52,6 @@ func assessStatusFor(_ color: Color, _ position: Position, _ size: Double) -> Bo
             PlaygroundPage.current.assessmentStatus = .fail(hints: hints, solution: nil)
             return false
             
-            
         }
         
         
@@ -90,7 +89,6 @@ func drawSquareWith(color: Color, position: Position, size: Double) {
         
     }
 }
-
 
 //#-code-completion(everything, hide)
 //#-code-completion(identifier, show, drawCircleWith(color:position:size:), drawSquareWith(color:position:size:), color, position)

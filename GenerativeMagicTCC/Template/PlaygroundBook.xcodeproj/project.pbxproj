@@ -25,6 +25,8 @@
 		3F09941522FA602A00B1F99A /* UIImage+ScaleToSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09940922FA5CC400B1F99A /* UIImage+ScaleToSize.swift */; };
 		3F1DB1492302588700BD1CD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1DB14B2302588700BD1CD5 /* Localizable.strings */; };
 		3F28436123758FDA008B970F /* smd.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F28436023758FDA008B970F /* smd.png */; };
+		3F39678023822C8000C6B4E1 /* ukulele.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F39677F23822C8000C6B4E1 /* ukulele.mp3 */; };
+		3F39678423823E1F00C6B4E1 /* AudioInteractionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39678323823E1F00C6B4E1 /* AudioInteractionSettings.swift */; };
 		3FD4216D234263B1009329E1 /* Glossary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4216B234263B1009329E1 /* Glossary.plist */; };
 		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
@@ -47,8 +49,6 @@
 			compilerSpec = com.apple.compilers.proxy.script;
 			filePatterns = "*/Manifest.plist";
 			fileType = pattern.proxy;
-			inputFiles = (
-			);
 			isEditable = 1;
 			outputFiles = (
 				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_NAME)",
@@ -133,6 +133,13 @@
 		3F1DB14A2302588700BD1CD5 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		3F1DB14C2302589400BD1CD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3F28436023758FDA008B970F /* smd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smd.png; sourceTree = "<group>"; };
+		3F39677A23820CB300C6B4E1 /* UIColor+Interpolate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Interpolate.swift"; sourceTree = "<group>"; };
+		3F39677B23820E5600C6B4E1 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		3F39677C2382106D00C6B4E1 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		3F39677D2382144900C6B4E1 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		3F39677E2382191800C6B4E1 /* AudioCanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioCanvasViewController.swift; sourceTree = "<group>"; };
+		3F39677F23822C8000C6B4E1 /* ukulele.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ukulele.mp3; sourceTree = "<group>"; };
+		3F39678323823E1F00C6B4E1 /* AudioInteractionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioInteractionSettings.swift; sourceTree = "<group>"; };
 		3FD4216C234263B1009329E1 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "pt-BR"; path = "pt-BR.lproj/Glossary.plist"; sourceTree = "<group>"; };
 		3FD4216E234263CC009329E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Glossary.plist; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* Generative Magic.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Generative Magic.playgroundbook"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -286,6 +293,7 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				3F39677F23822C8000C6B4E1 /* ukulele.mp3 */,
 				3FD4216B234263B1009329E1 /* Glossary.plist */,
 				3F0993F622FA4FA800B1F99A /* Cover.png */,
 				3F0993F522FA4FA800B1F99A /* ImgFilterShowcase.png */,
@@ -301,6 +309,11 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3F39677E2382191800C6B4E1 /* AudioCanvasViewController.swift */,
+				3F39677D2382144900C6B4E1 /* AudioManager.swift */,
+				3F39677C2382106D00C6B4E1 /* Circle.swift */,
+				3F39677B23820E5600C6B4E1 /* CanvasView.swift */,
+				3F39677A23820CB300C6B4E1 /* UIColor+Interpolate.swift */,
 				3F09940322FA5CC400B1F99A /* ShapeType.swift */,
 				3F09940922FA5CC400B1F99A /* UIImage+ScaleToSize.swift */,
 				3F09940522FA5CC400B1F99A /* PresentationViewController.swift */,
@@ -316,6 +329,7 @@
 				3F0993FE22FA5CC400B1F99A /* UIColor+InitFromHex.swift */,
 				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
 				3F0993FB22FA569C00B1F99A /* IntroViewController.swift */,
+				3F39678323823E1F00C6B4E1 /* AudioInteractionSettings.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -440,6 +454,7 @@
 				3F1DB1492302588700BD1CD5 /* Localizable.strings in Resources */,
 				3FD4216D234263B1009329E1 /* Glossary.plist in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
+				3F39678023822C8000C6B4E1 /* ukulele.mp3 in Resources */,
 				3F0993F822FA4FA800B1F99A /* me.png in Resources */,
 				3F28436123758FDA008B970F /* smd.png in Resources */,
 				3F0993F922FA4FA800B1F99A /* ImgFilterShowcase.png in Resources */,
@@ -500,6 +515,7 @@
 				3F09941222FA600400B1F99A /* PresentationDataSource.swift in Sources */,
 				3F09940C22FA5FE400B1F99A /* UIColor+InitFromHex.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
+				3F39678423823E1F00C6B4E1 /* AudioInteractionSettings.swift in Sources */,
 				3F09940F22FA5FFC00B1F99A /* DrawMode.swift in Sources */,
 				3F09940E22FA5FFA00B1F99A /* CanvasDelegate.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
